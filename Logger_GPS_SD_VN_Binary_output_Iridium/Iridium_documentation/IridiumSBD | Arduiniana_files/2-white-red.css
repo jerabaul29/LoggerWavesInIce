@@ -1,0 +1,21 @@
+
+body { background-color: #ffffff; background-image: url(bgr-white-red.png); }
+
+.page-menu li a:hover,.top_menu li.active a,#pagenav li a:hover,#pagenav li ul li,#pagenav li:hover,#pagenav li.sfhover1{ background:#4C0D0D }
+#pagenav li ul li{ border:solid #6B3A30; border-width:0 1px 1px }
+#pagenav li ul li ul li,#pagenav li ul li ul li ul li,#pagenav li ul li ul li ul li ul li{ border:1px solid #6B3A30 }
+
+.feat_background,.featured_post span.date_bg{ background:#4C0D0D }
+
+.widget{ background-color:#4C0D0D }
+
+.Navi .on { background: #4C0D0D !important }
+.Navi a:hover { background: #EADADA }
+
+#comments .comment .authcomment{ background:#F2EAEA; border: #CCC6B7 1px solid }
+input#submit{ background:#4C0D0D }
+
+.flickr img{ border:12px solid #280707 }
+.flickr img:hover{ border-color:#721414 }
+
+

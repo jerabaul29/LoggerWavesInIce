@@ -1,0 +1,4003 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head profile="http://gmpg.org/xfn/11">
+
+<title>
+        								  IridiumSBD&nbsp;|&nbsp;Arduiniana				        </title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/style.css" type="text/css" media="screen">
+    <link rel="icon" type="image/png" href="http://arduiniana.org/wp-content/themes/inuitypes/images/favicon.ico"> 
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://arduiniana.org/feed/">
+    <link rel="pingback" href="http://arduiniana.org/xmlrpc.php">
+		
+<link rel="alternate" type="application/rss+xml" title="Arduiniana » IridiumSBD Comments Feed" href="http://arduiniana.org/libraries/iridiumsbd/feed/">
+<script src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/ca-pub-7419063236844482.js"></script><script type="text/javascript" src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/comment-reply.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://arduiniana.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://arduiniana.org/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Buying a Puzzle Box" href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/buying-a-puzzle-box/">
+<link rel="next" title="TinyGPS++" href="http://arduiniana.org/libraries/tinygpsplus/">
+<meta name="generator" content="WordPress 3.3.1">
+<link rel="canonical" href="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/a.html">
+		<link href="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/2-white-red.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/shCore.css"><link rel="stylesheet" type="text/css" href="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/shThemeDefault.css"><style type="text/css" id="syntaxhighlighteranchor"></style>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="wrapper">
+	
+	<div class="top_menu">
+	
+	    <div class="fl">
+	
+            <ul id="pagenav" class="page-menu">
+			
+			    <li><a href="http://arduiniana.org/">Home</a></li>
+					            
+			    <li class="page_item page-item-235 current_page_ancestor current_page_parent"><a href="http://arduiniana.org/libraries/">Libraries</a>
+<ul class="children">
+	<li class="page_item page-item-5"><a href="http://arduiniana.org/libraries/tinygps/">TinyGPS</a></li>
+	<li class="page_item page-item-61"><a href="http://arduiniana.org/libraries/newsoftserial/">NewSoftSerial</a></li>
+	<li class="page_item page-item-119"><a href="http://arduiniana.org/libraries/streaming/">Streaming</a></li>
+	<li class="page_item page-item-154"><a href="http://arduiniana.org/libraries/pstring/">PString</a></li>
+	<li class="page_item page-item-221"><a href="http://arduiniana.org/libraries/flash/">Flash</a></li>
+	<li class="page_item page-item-856"><a href="http://arduiniana.org/libraries/pwmservo/">PWMServo</a></li>
+	<li class="page_item page-item-1170 current_page_item"><a href="http://arduiniana.org/libraries/iridiumsbd/">IridiumSBD</a></li>
+	<li class="page_item page-item-1241"><a href="http://arduiniana.org/libraries/tinygpsplus/">TinyGPS++</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4"><a href="http://arduiniana.org/about/">About</a></li>
+<li class="page_item page-item-363"><a href="http://arduiniana.org/projects/">Projects</a>
+<ul class="children">
+	<li class="page_item page-item-365"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/">The Reverse Geocache™ Puzzle</a>
+	<ul class="children">
+		<li class="page_item page-item-865"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/building/">Building a Puzzle Box</a></li>
+		<li class="page_item page-item-1143"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/buying-a-puzzle-box/">Buying a Puzzle Box</a></li>
+		<li class="page_item page-item-766"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/more-puzzle-box-tales/">More Puzzle Box Tales</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+			        
+		    </ul> 
+	   
+	    </div>
+
+	    <div class="fr">
+		    
+			<span class="subscribe">
+			
+
+
+<!-- Code inserted by Mikal Hart-->
+
+<form method="POST" action="//box.arduiniana.org/mailman/subscribe/puzzle_box.arduiniana.org">
+Email: <input name="email" size="10" type="Text"> <input name="email-button" value="Subscribe!" color="#0000FF" background="#0000FF" font="11px Verdana" type="Submit">
+
+<!-- End code inserted by Mikal Hart-->
+
+
+
+
+
+
+			<a class="admin-link" href="http://arduiniana.org/wp-admin/">Admin</a>			
+			<a href="http://arduiniana.org/feed/"><span class="rss-button">RSS</span></a> &nbsp;Subscribe:&nbsp;
+			
+			<!-- Feedburner: START -->
+			
+			<a href="http://arduiniana.org/feed/">RSS feed</a>			
+						
+			<!-- Feedburner: END -->
+			
+<!-- Code inserted by Mikal Hart-->
+ </form>
+<!-- End code inserted by Mikal Hart-->
+			</span>
+			
+	    </div>
+	
+	    </div>
+		
+		<!-- AdSense Top Single: START -->
+	
+	        	
+		
+        <!-- AdSense Top Single: END -->
+		
+		<div class="page">
+
+			<div class="content content_left">
+
+                <div id="header">
+				
+				    			
+			            <div class="blog-title"><a href="http://arduiniana.org/">Arduiniana</a></div>
+			
+		                <div class="blog-description">Arduino wisdom and gems by Mikal Hart</div>
+			
+			        	
+					
+				</div>
+				    
+  
+	        
+		<div class="post">
+		
+		    <div id="header-about">
+    
+	            <h2>IridiumSBD </h2>
+			
+			</div>
+			          
+            <div class="entry">
+				
+			    <p>The Rock 7 <strong>RockBLOCK</strong> is a fascinating new 
+communications module that gives TTL-level devices like Arduino access 
+to the Iridium satellite network.&nbsp; This is a big deal, because it 
+means that your application can now easily and inexpensively communicate
+ from any point on the surface of the globe, from the heart of the 
+Amazon to the Siberian tundra.</p>
+<p>This library, <strong>IridiumSBD</strong>, uses the RockBLOCK/Iridium’s <strong>SBD </strong>(“Short
+ Burst Data”) protocol to send and receive short messages to/from the 
+Iridium hub.&nbsp; SBD is a “text message”-like technology that supports
+ the transmission of text or binary messages up to a certain maximum 
+size (270 bytes received, 340 bytes transmitted).</p>
+<p>For more information, visit the Rock 7 <a href="http://rock7mobile.com/">website</a>.</p>
+<h2>“3-Wire” Wiring</h2>
+<p>Rock 7 have made interfacing to the Arduino quite simple.&nbsp; Each 
+RockBLOCK ships with a 10-pin JST-terminated cable that snaps onto the 
+RockBLOCK and conveniently exposes the various signal lines for the 
+client device to connect to.&nbsp; It’s actually only necessary to 
+connect 4 or 5 of these to get your Arduino application up and 
+running.&nbsp;&nbsp; In our configuration we ignore the flow control 
+lines and talk to the RockBLOCK over what Iridium calls a “3-wire” TTL 
+serial interface.&nbsp; In wiring table below, we assume that the 
+RockBLOCK is being powered from the Arduino 5V power bus.</p>
+<table cellspacing="0" cellpadding="0" border="1">
+<tbody>
+<tr>
+<td width="162" valign="top"><strong>RockBLOCK Connection</strong></td>
+<td width="168" valign="top"><strong>Arduino Connection</strong></td>
+</tr>
+<tr>
+<td width="162" valign="top">+5V (Power)</td>
+<td width="168" valign="top">+5V (Power)</td>
+</tr>
+<tr>
+<td width="162" valign="top">GND</td>
+<td width="168" valign="top">GND</td>
+</tr>
+<tr>
+<td width="162" valign="top">TX</td>
+<td width="168" valign="top">TX Serial Pin*</td>
+</tr>
+<tr>
+<td width="162" valign="top">RX</td>
+<td width="168" valign="top">RX Serial Pin*</td>
+</tr>
+<tr>
+<td width="162" valign="top">SLEEP</td>
+<td width="168" valign="top">+5V or GPIO pin*</td>
+</tr>
+</tbody>
+</table>
+<p align="center">A minimal “3-wire” connection to RockBLOCK</p>
+<p>*The TX and RX lines are labeled on the RockBLOCK as viewed <em>from the Arduino</em>,
+ so the TX line would be transmitting serial data to the 
+RockBLOCK.&nbsp; These lines support TTL-level serial (default 19200 
+baud), so you can either connect it directly to the/a built-in UART or 
+create a “soft” serial on any two suitable pins.&nbsp; We usually opt 
+for the latter choice to free up the UART(s) for diagnostic and other 
+console communications.&nbsp; The active low SLEEP wire may be connected
+ to a 5V line (indicating that the device is perpetually awake), but 
+it’s a good power saving technique to connect it to a general-purpose 
+pin,&nbsp; allowing the library to put the RockBLOCK in a low power 
+“sleep” state when its services are not needed.</p>
+<h2>Non-blocking Retry Strategy</h2>
+<p>The nature of satellite communications is such that it often takes 
+quite a long time to establish a link.&nbsp; Satellite communications 
+are line-of-sight, so having a clear view of an unclouded sky greatly 
+improves speed and reliability; however, establishing contact may be 
+difficult even under ideal conditions for the simple reason that at a 
+given time no satellite may immediately be overhead.&nbsp; In these 
+cases, the library initiates a moderately elaborate behind-the-scenes 
+series of retries, waiting for a satellite to appear.</p>
+<p>With a clear sky, transmissions almost always succeed after a few of 
+these retries, but the entire process may take up to several 
+minutes.&nbsp; Since most microcontroller applications cannot tolerate 
+blocking delays of this length, <strong>IridiumSBD</strong> provides a 
+callback mechanism to ensure that the Arduino can continue performing 
+critical tasks.&nbsp; That is, if the library user provides a global C++
+ function with the signature</p>
+<pre>bool ISBDCallback();</pre>
+<p>(and this is highly recommended for all but the most trivial 
+applications), then that function will be called repeatedly while the 
+library is waiting for long operations to complete.&nbsp; In it you can 
+take care of activities that need doing while you’re waiting for the 
+transmission to complete.&nbsp; Simple example:</p>
+<div><div id="highlighter_916026" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp color1 bold">bool</code> <code class="cpp plain">ISBDCallback()</code></div><div class="line number2 index1 alt1"><code class="cpp plain">{</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">unsigned ledOn = (</code><code class="cpp color1 bold">bool</code><code class="cpp plain">)((millis() / 1000) % 2);</code></div><div class="line number4 index3 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">digitalWrite(ledPin, ledOn); </code><code class="cpp comments">// Blink LED every second</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp keyword bold">true</code><code class="cpp plain">;</code></div><div class="line number6 index5 alt1"><code class="cpp plain">}</code></div><div class="line number7 index6 alt2"><code class="cpp plain">...</code></div><div class="line number8 index7 alt1"><code class="cpp comments">// This transmission may take a long time, but the LED keeps blinking</code></div><div class="line number9 index8 alt2"><code class="cpp plain">isbd.sendSBDText(</code><code class="cpp string">"Hello, mother!"</code><code class="cpp plain">);</code></div></div></td></tr></tbody></table></div></div>
+<p><strong>Note</strong>: It is not permitted to call most IridiumSBD methods from within the callback.&nbsp; Doing so will immediately return <strong>ISBD_REENTRANT.</strong></p>
+<p><strong>Note: </strong>Your application can prematurely terminate a pending IridiumSBD operation by returning <strong>false</strong> from the callback.&nbsp; Doing so causes the pending operation to return <strong>ISBD_CANCELLED</strong>.</p>
+<h2>Power Considerations</h2>
+<p>The RockBLOCK module uses a “super capacitor” to supply power to the 
+Iridium 9602.&nbsp; As the capacitor is depleted through repeated 
+transmission retries, the host device’s power bus replenishes it.&nbsp; 
+Under certain low power conditions it is important that the library not 
+retry too quickly, as this can drain the capacitor and render the 9602 
+inoperative.&nbsp; In particular, when powered by a low-power 90 mA max 
+USB supply, the interval between transmit retries should be extended to 
+as much as 60 seconds, compared to 20 for, say, a high-current battery 
+solution.</p>
+<p>To transparently support these varying power profiles, <strong>IridiumSBD</strong> provides the ability to fine-tune the delay between retries.&nbsp; This is done by calling</p>
+<pre>isbd.setPowerProfile(1); // For USB "low current" applications</pre>
+<p>or</p>
+<pre>isbd.setPowerProfile(0); // For "high current" applications</pre>
+<h2>Construction and Startup</h2>
+<p>To begin using the library, first create an <strong>IridiumSBD</strong> object.&nbsp; The <strong>IridiumSBD</strong> constructor binds the new object to an Arduino <strong>Stream</strong> (i.e. the RockBLOCK serial port) and, optionally, the RockBlock SLEEP line:</p>
+<pre>IridiumSBD(Stream &amp;stream, int sleepPinNo = -1);</pre>
+<p>Example startup:</p>
+<div><div id="highlighter_522677" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#include "IridiumSBD.h"</code></div><div class="line number2 index1 alt1"><code class="cpp preprocessor">#include "SoftwareSerial.h"</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="cpp plain">SoftwareSerial ssIridium(18, 19); </code><code class="cpp comments">// RockBLOCK serial port on 18/19</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="cpp plain">IridiumSBD isbd(ssIridium, 10);&nbsp;&nbsp; </code><code class="cpp comments">// RockBLOCK SLEEP pin on 10</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="cpp keyword bold">void</code> <code class="cpp plain">setup()</code></div><div class="line number9 index8 alt2"><code class="cpp plain">{</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">isbd.setPowerProfile(1); </code><code class="cpp comments">// This is a low power application</code></div><div class="line number11 index10 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">isbd.begin(); </code><code class="cpp comments">// Wake up the 9602 and prepare it to communicate.</code></div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">...</code></div></div></td></tr></tbody></table></div></div>
+<h2>Data transmission</h2>
+<p>The methods that make up the meat of the <strong>IridiumSBD</strong> public interface, are, naturally, those that enable the sending and receiving of data.&nbsp; There are four such functions in <strong>IridiumSBD</strong>, two “send-only” functions (text and binary), and two “send-and-receive” functions (again, text and binary):</p>
+<div><div id="highlighter_398227" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp comments">// Send a text message</code></div><div class="line number2 index1 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">sendSBDText(</code><code class="cpp keyword bold">const</code> <code class="cpp color1 bold">char</code> <code class="cpp plain">*message);</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="cpp comments">// Send a binary message</code></div><div class="line number5 index4 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">sendSBDBinary(</code><code class="cpp keyword bold">const</code> <code class="cpp plain">uint8_t *txData, </code><code class="cpp color1 bold">size_t</code> <code class="cpp plain">txDataSize);</code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="cpp comments">// Send a text message and receive one (if available)</code></div><div class="line number8 index7 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">sendReceiveSBDText(</code><code class="cpp keyword bold">const</code> <code class="cpp color1 bold">char</code> <code class="cpp plain">*message, uint8_t *rxBuffer,</code></div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">size_t</code> <code class="cpp plain">&amp;rxBufferSize);</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="cpp comments">// Send a binary message and receive one (if available)</code></div><div class="line number12 index11 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">sendReceiveSBDBinary(</code><code class="cpp keyword bold">const</code> <code class="cpp plain">uint8_t *txData, </code><code class="cpp color1 bold">size_t</code> <code class="cpp plain">txDataSize,</code></div><div class="line number13 index12 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">uint8_t *rxBuffer, </code><code class="cpp color1 bold">size_t</code> <code class="cpp plain">&amp;rxBufferSize);</code></div></div></td></tr></tbody></table></div></div>
+<h2>Send-only and Receive-only applications</h2>
+<p>Note that at the lowest-level, SBD transactions always involve the sending <em>and</em> receiving of exactly one message (if one is available).&nbsp; That means that if you call the simpler variants <strong>sendSBDText</strong> or <strong>sendSBDBinary</strong>
+ and there happen to messages in your incoming (RX) message queue, the 
+first of these is discarded and irrevocably lost.&nbsp; This may be 
+perfectly acceptable for a “send-only” application that never expects to
+ receive messages, but if there is some chance that you will need to 
+process an inbound message, call <strong>sendReceiveSBDText</strong> or <strong>sendReceiveSBDBinary</strong> instead.</p>
+<p>If your application is <em>receive-only</em>, simply call <strong>sendReceiveSBDText</strong> with a NULL outbound <strong>message</strong> parameter.</p>
+<p>If no inbound message is available, the <strong>sendReceive</strong>* messages indicate this by returning <strong>ISBD_SUCCESS</strong> and setting <strong>rxBufferSize</strong> to 0.</p>
+<h2>Diagnostics</h2>
+<p><strong>IridiumSBD</strong> provides two methods for performing self-diagnostics.&nbsp; These are</p>
+<div><div id="highlighter_504877" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp keyword bold">void</code> <code class="cpp plain">attachConsole(Stream &amp;stream);</code></div><div class="line number2 index1 alt1"><code class="cpp keyword bold">void</code> <code class="cpp plain">attachDiags(Stream &amp;stream);</code></div></div></td></tr></tbody></table></div></div>
+<p>These allow the host application to provide a Stream object (serial 
+port) that can be used to monitor the RockBLOCK serial traffic and 
+diagnostic messages, respectively.&nbsp; The typical usage is to simply 
+use the Arduino serial port to monitor both of these—assuming that it is
+ connected to a PC serial console and not otherwise used:</p>
+<div><div id="highlighter_47335" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">isbd.attachConsole(Serial);</code></div><div class="line number2 index1 alt1"><code class="cpp plain">isbd.attachDiags(Serial);</code></div></div></td></tr></tbody></table></div></div>
+<h2>Receiving Multiple Messages</h2>
+<p>After every successful SBD send/receive operation, the Iridium 
+satellite system informs the client how many messages remain in the 
+inbound message queue.&nbsp; The library reports this value with the <strong>getWaitingMessageCount</strong> method.&nbsp; Here’s an example of a loop that reads all the messages in the inbound message queue:</p>
+<div><div id="highlighter_987601" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp keyword bold">do</code></div><div class="line number2 index1 alt1"><code class="cpp plain">{</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">char</code> <code class="cpp plain">rxBuffer[100];</code></div><div class="line number4 index3 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">size_t</code> <code class="cpp plain">bufferSize = </code><code class="cpp keyword bold">sizeof</code><code class="cpp plain">(rxBuffer);</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">status = isbd.sendReceiveText(</code><code class="cpp string">"Hello?"</code><code class="cpp plain">, rxBuffer, bufferSize);</code></div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">if</code> <code class="cpp plain">(status != ISBD_SUCCESS)</code></div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">{</code></div><div class="line number8 index7 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp comments">/* ...process error here... */</code></div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">break</code><code class="cpp plain">;</code></div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number11 index10 alt2"><code class="cpp spaces">&nbsp;&nbsp; </code><code class="cpp keyword bold">if</code> <code class="cpp plain">(bufferSize == 0)</code></div><div class="line number12 index11 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="cpp keyword bold">break</code><code class="cpp plain">; </code><code class="cpp comments">// all done!</code></div><div class="line number13 index12 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;</code><code class="cpp comments">/* ...process message in rxBuffer here... */</code></div><div class="line number14 index13 alt1">&nbsp;</div><div class="line number15 index14 alt2"><code class="cpp plain">} </code><code class="cpp keyword bold">while</code> <code class="cpp plain">(isbd.getWaitingMessageCount() &gt; 0);</code></div></div></td></tr></tbody></table></div></div>
+<h2>Erratum Workarounds and other Tweaks</h2>
+<p>In May, 2013, Iridium identified a potential problem that could cause
+ a satellite modem like the RockBLOCK to lock up unexpectedly.&nbsp; In a
+ product bulletin they stated that though future versions of the Iridium
+ firmware would resolve this issue, current software should work around 
+it by adding an “MSSTM” software query to the device.&nbsp; <strong>IridiumSBD</strong> employs this important workaround by default, but you can disable it with:</p>
+<div><div id="highlighter_417348" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">isbd.useMSSTMWorkaround(</code><code class="cpp keyword bold">false</code><code class="cpp plain">);</code></div></div></td></tr></tbody></table></div></div>
+<p>Similarly, Iridium recommend that transmission be deferred until the 
+signal quality has reached at least 2 (on a scale of 0 to 5, as reported
+ by getSignalQuality()).&nbsp; However, there are times when it is 
+advantageous to use a lower (or higher) value than 2 as this default 
+minimum.&nbsp; To change the default minimum from 2, use:</p>
+<div><div id="highlighter_806991" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">isbd.setMinimumSignalQuality(1);</code></div></div></td></tr></tbody></table></div></div>
+<h2>Error return codes</h2>
+<p>Many &nbsp;<strong>IridiumSBD</strong> methods return an integer error status code, with ISBD_SUCCESS (0) indicating successful completion.&nbsp; These include <strong>begin</strong>, <strong>sendSBDText</strong>, <strong>sendSBDBinary</strong>, <strong>sendReceiveSBDText</strong>, <strong>sendReceiveSBDBinary</strong>, <strong>getSignalQuality</strong>, and <strong>sleep</strong>.&nbsp; Here is a complete list of the possible error return codes:</p>
+<div><div id="highlighter_127531" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp preprocessor">#define ISBD_SUCCESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</code></div><div class="line number2 index1 alt1"><code class="cpp preprocessor">#define ISBD_ALREADY_AWAKE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</code></div><div class="line number3 index2 alt2"><code class="cpp preprocessor">#define ISBD_SERIAL_FAILURE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</code></div><div class="line number4 index3 alt1"><code class="cpp preprocessor">#define ISBD_PROTOCOL_ERROR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</code></div><div class="line number5 index4 alt2"><code class="cpp preprocessor">#define ISBD_CANCELLED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</code></div><div class="line number6 index5 alt1"><code class="cpp preprocessor">#define ISBD_NO_MODEM_DETECTED&nbsp;&nbsp; 5</code></div><div class="line number7 index6 alt2"><code class="cpp preprocessor">#define ISBD_SBDIX_FATAL_ERROR&nbsp;&nbsp; 6</code></div><div class="line number8 index7 alt1"><code class="cpp preprocessor">#define ISBD_SENDRECEIVE_TIMEOUT 7</code></div><div class="line number9 index8 alt2"><code class="cpp preprocessor">#define ISBD_RX_OVERFLOW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8</code></div><div class="line number10 index9 alt1"><code class="cpp preprocessor">#define ISBD_REENTRANT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9</code></div><div class="line number11 index10 alt2"><code class="cpp preprocessor">#define ISBD_IS_ASLEEP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</code></div><div class="line number12 index11 alt1"><code class="cpp preprocessor">#define ISBD_NO_SLEEP_PIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</code></div></div></td></tr></tbody></table></div></div>
+<h2>Interface Documentation</h2>
+<h3>IridiumSBD(Stream &amp;stream, int sleepPinNo = -1);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Creates an IridiumSBD library object<br>
+<strong>Returns:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N/A [constructor]<br>
+<strong>Parameter: &nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>stream</strong> – The serial port that the RockBLOCK is connected to.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>sleepPin</strong><strong> </strong>- The number of the Arduino pin connected to the RockBLOCK SLEEP line.<br>
+<strong>Note:</strong> Connecting and using the sleepPin is recommended for battery-based solutions.&nbsp; Use <strong>sleep</strong>() to put the RockBLOCK into a low-power state, and <strong>begin</strong>() to wake it back up.</p>
+<h3>int begin();</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Starts (or wakes) the RockBLOCK modem.<br>
+<strong>Returns:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>None.<strong></strong><br>
+<strong>Notes</strong></p>
+<ul>
+<li><strong>begin</strong>() also serves as the way to wake a RockBLOCK that is asleep.</li>
+<li>At initial power up, this method make take several tens of seconds 
+as the device charges.&nbsp; When waking from sleep the process should 
+be faster.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+<li>This function should be called before any transmit/receive message</li>
+</ul>
+<h3>int sendSBDText(const char *message);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Transmits a text message to the global satellite system.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>message</strong><strong> </strong>– A 0-terminated string message.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>The library calculates retries the operation for up to 300 seconds by default.&nbsp; (To change this value, call <strong>adjustSendReceiveTimeout</strong>.)</li>
+<li>The maximum size of a transmitted packet (including header and checksum) is 340 bytes.</li>
+<li>If there are any messages in the RX queue, the first of these is discarded when this function is called.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+</ul>
+<h3>int sendSBDBinary(const uint8_t *txData, size_t txDataSize);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Transmits a binary message to the global satellite system.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>txData</strong><strong> </strong>– The buffer containing the binary data to be transmitted.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>txDataSize</strong><strong> </strong>- The size of the buffer in bytes.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>The library calculates and transmits the required headers and 
+checksums and retries the operation for up to 300 seconds by 
+default.&nbsp; (To change this value, call <strong>adjustSendReceiveTimeout</strong>.)</li>
+<li>The maximum size of a transmitted packet (including header and checksum) is 340 bytes.</li>
+<li>If there are any messages in the RX queue, the first of these is discarded when this function is called.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+</ul>
+<h3>int sendReceiveSBDText(const char *message, uint8_t *rxBuffer, size_t &amp;rxBufferSize);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Transmits a text message to the global satellite system and receives a message if one is available.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>message </strong>– A 0-terminated string message.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>rxBuffer </strong>– The buffer to receive the inbound message.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>rxBufferSize</strong><strong> </strong>- The size of the buffer in bytes.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>The library calculates retries the operation for up to 300 seconds by default.&nbsp; (To change this value, call <strong>adjustSendReceiveTimeout</strong>.)</li>
+<li>The maximum size of a transmitted packet (including header and checksum) is 340 bytes.</li>
+<li>The maximum size of a received packet is 270 bytes.</li>
+<li>If there are any messages in the RX queue, the first of these is discarded when this function is called.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+<li>The library returns the size of the buffer actually received into <strong>rxBufferSize</strong>.&nbsp; This value should always be set to the actual buffer size before calling <strong>sendReceiveSBDText</strong>.</li>
+</ul>
+<h3>int sendReceiveSBDBinary(const uint8_t *txData, size_t txDataSize, uint8_t *rxBuffer, size_t &amp;rxBufferSize);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Transmits a binary message to the global satellite system and receives a message if one is available.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>txData</strong><strong> </strong>– The buffer containing the binary data to be transmitted.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>txDataSize</strong><strong> </strong>- The size of the outbound buffer in bytes.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>rxBuffer </strong>– The buffer to receive the inbound message.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>rxBufferSize</strong><strong> </strong>- The size of the buffer in bytes.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>The library calculates and transmits the required headers and 
+checksums and retries the operation for up to 300 seconds by 
+default.&nbsp; (To change this value, call <strong>adjustSendReceiveTimeout</strong>.)</li>
+<li>The maximum size of a transmitted packet (including header and checksum) is 340 bytes.</li>
+<li>The maximum size of a received packet is 270 bytes.</li>
+<li>If there are any messages in the RX queue, the first of these is discarded when this function is called.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+</ul>
+<h3>int sendReceiveSBDBinary(const uint8_t *txData, size_t txDataSize,</h3>
+<p><strong>uint8_t *rxBuffer, size_t &amp;rxBufferSize);</strong><br>
+<strong>Description:</strong>&nbsp;&nbsp; Transmits a binary message to the global satellite system and receives a message if one is available.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>txData</strong><strong> </strong>– The buffer containing the binary data to be transmitted.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>txDataSize</strong><strong> </strong>- The size of the outbound buffer in bytes.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>rxBuffer </strong>– The buffer to receive the inbound message.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>rxBufferSize</strong><strong> </strong>- The size of the buffer in bytes.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>The library calculates and transmits the required headers and 
+checksums and retries the operation for up to 300 seconds by 
+default.&nbsp; (To change this value, call <strong>adjustSendReceiveTimeout</strong>.)</li>
+<li>The maximum size of a transmitted packet (including header and checksum) is 340 bytes.</li>
+<li>The maximum size of a received packet is 270 bytes.</li>
+<li>If there are any messages in the RX queue, the first of these is discarded when this function is called.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+</ul>
+<h3>int getSignalQuality(int &amp;quality);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Queries the signal strength and visibility of satellites<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>quality</strong><strong> </strong>– Return value: the strength of the signal (0=nonexistent, 5=high)<br>
+<strong>Notes</strong></p>
+<ul>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+<li>This method is mostly informational.&nbsp; It is not strictly 
+necessary for the user application to verify that a signal exists before
+ calling one of the transmission functions, as these check signal 
+quality themselves.</li>
+</ul>
+<h3>int getWaitingMessageCount();</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Returns the number of waiting messages on the Iridium servers.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The number of messages waiting.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>None.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>This number is only valid if one of the send[Receive] methods have 
+previously completed successfully.&nbsp; If not, the value returned from
+ <strong>getWaitingMessageCount</strong> is -1 (“unknown”).</li>
+</ul>
+<h3>int sleep();</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Puts the RockBLOCK into low power “sleep” mode<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISBD_SUCCESS if successful, a non-zero code otherwise;<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>None.</strong><br>
+<strong>Notes</strong></p>
+<ul>
+<li>This method gracefully shuts down the RockBLOCK and puts it into 
+low-power standby mode by bringing the active low SLEEP line low.</li>
+<li>Wake the device by calling <strong>begin</strong>.</li>
+<li>If provided, the user’s <strong>ISBDCallback</strong> function is repeatedly called during this operation.</li>
+</ul>
+<h3>bool isAsleep();</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; indicates whether the RockBLOCK is in low-power standby mode.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>true</strong> if the device is asleep<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>None.</strong></p>
+<h3>void setPowerProfile(int profileNo);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Defines the device power profile<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>None</strong>.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>profileNo</strong><strong> </strong>– 1 for low-current USB power source, 0 for default power<br>
+<strong>Notes</strong></p>
+<ul>
+<li>This method defines the internal delays between retransmission.&nbsp; Low current applications need longer delays.</li>
+</ul>
+<h3>void adjustATTimeout(int seconds);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Adjusts the internal timeout timer for serial AT commands<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; None.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>seconds</strong><strong> </strong>– The maximum number of seconds to wait for a response to an AT command (default=20).<br>
+<strong>Notes</strong></p>
+<ul>
+<li>The Iridium 9602 frequently does not respond immediately to an AT 
+command.&nbsp; This value indicates the number of seconds IridiumSBD 
+should wait before giving up.</li>
+<li>It is not expected that this method will be commonly used.<strong></strong></li>
+</ul>
+<h3>void adjustSendReceiveTimeout(int seconds);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Adjusts the internal timeout timer for the library send[Receive] commands<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; None.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>seconds</strong><strong> </strong>– The maximum number of seconds to continue attempting retransmission of messages (default=300).<br>
+<strong>Notes</strong></p>
+<ul>
+<li>This setting indicates how long IridiumSBD will continue to attempt 
+to communicate with the satellite array before giving up.&nbsp; The 
+default value of 300 seconds (5 minutes) seems to be a reasonable choice
+ for many applications, but higher values might be more appropriate for 
+others.</li>
+</ul>
+<h3>void setMinimumSignalQuality(int quality);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Defines the minimum signal quality needed to begin a send/receive transmission.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; None.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>quality</strong><strong> </strong>–
+ The minimum signal quality on a scale of 0 (nonexistent) to 5 (superb) 
+needed before the library allows a transmission to begin. (default=2)<br>
+<strong>Notes</strong></p>
+<ul>
+<li>Iridium recommend using 2 for this value, although there are occasions where 1 might be used.</li>
+</ul>
+<h3>void useMSSTMWorkaround(bool useWorkaround);</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Defines whether the library
+ should use the technique described in the Iridium Product Advisor of 13
+ May 2013 to avoid possible lockout.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; None.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>useWorkaround </strong>–
+ “true” if the workaround should be employed; false otherwise.&nbsp; 
+This value is set internally to “true” by default, on the assumption 
+that the attached device may have an older firmware.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>Affected firmware versions include TA11002 and TA12003.&nbsp; If 
+your firmware version is later than these, you can save some time by 
+setting this value to false.</li>
+</ul>
+<h3>void attachConsole(Stream &amp;stream)</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Binds <strong>stream</strong> as the library output console.<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>None</strong>.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>stream</strong><strong> </strong>– The stream object (typically a serial port) that will monitor the serial traffic to/from the RockBLOCK device.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>This is a diagnostic routine.&nbsp; Use it to monitor traffic on a PC console.</li>
+</ul>
+<h3>void attachDiags(Stream &amp;stream)</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; Binds <strong>stream</strong> as the library diagnostic stream<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>None</strong>.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>stream</strong><strong> </strong>– The stream object (typically a serial port) that will display library diagnostic messages.<br>
+<strong>Notes</strong></p>
+<ul>
+<li>This is a diagnostic routine.&nbsp; Use it to monitor debug messages on a PC console.</li>
+<li>If this functionality is no longer needed, you can recover system 
+resources by recompiling the library source without diagnostics.&nbsp; 
+Change the line near the top of IridiumSBD.h to</li>
+</ul>
+<pre>#define ISBD_DIAGS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</pre>
+<h3>bool ISBDCallback()</h3>
+<p><strong>Description:</strong>&nbsp;&nbsp; This is not a library method, but an (optional) user-provided callback<br>
+<strong>Returns:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>true </strong>if the operation should continue, <strong>false</strong> to terminate it.<br>
+<strong>Parameter:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>None.</strong><br>
+<strong>Notes</strong></p>
+<ul>
+<li>If this function is not provided the library methods will block.</li>
+</ul>
+<h2>License</h2>
+<p>This library is distributed under the terms of the GNU LGPL license.</p>
+<h2>Download</h2>
+<p>The latest revision of the library is 1.0.  Download from <a href="https://github.com/mikalhart/IridiumSBD/releases/tag/v1.0" title="IridiumSBD Library 1.0" target="_blank">GitHub</a>.</p>
+<h2>Revision history</h2>
+<p>0.1&nbsp;&nbsp; – Initial draft submitted to Rock 7 for review<br>
+0.2&nbsp;&nbsp; – Added text about the AT-MSSTM erratum/workaround and 
+changing the minimum required signal quality.&nbsp; Also documented 
+related new methods setMinimumSignalQuality()&nbsp; and 
+useMSSTMWorkaround().<br>
+1.0   – Posted initial version.</p>
+<p>&nbsp;</p>
+					
+            </div>
+			
+			<div class="last-updated">
+						
+		        Page last updated on August 31, 2013 at 6:49 pm							
+		    </div>
+                
+		</div>
+
+<div id="comments">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- You can start editing here. -->
+
+
+	
+	
+	<div class="commh2">100 Responses → “IridiumSBD”</div>
+		
+	<div class="navigation">
+	
+		<div class="alignleft"><a href="http://arduiniana.org/libraries/iridiumsbd/comment-page-1/#comments">« Older Comments</a></div>
+		
+		<div class="alignright"></div>
+		
+	</div>
+
+	<ol>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-169079">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://gadgillab.berkeley.edu/people/daniel-wilson-research/" rel="external nofollow" class="url">Danny</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>I have now solved a few of my own problems, so I wanted to share my insights here. </p>
+<p>The Error 10 problem was very vexing, but I have pretty much solved it after learning the following things:</p>
+<p>1) If you are on the low power profile (profile 1) and attempt to 
+send messages too often, I believe the super capacitor on the RockBlock 
+drains down. After enough attempts, the RockBlock stops responding, and 
+the IridiumSBD library thinks the RockBlock is “asleep.” The key is to 
+completely stop attempts to send messages for at least one minute before
+ retrying. You can stop attempts by making ISBDCallback return a 
+“false.”</p>
+<p>2) The content of ISBDCallback must return a true. This seems obvious
+ now, but I spent a long time learning this lesson. You will get lots of
+ errors until you fix this. My ISBDCallback looks something like this 
+now:</p>
+<p>bool ISBDCallback()<br>
+{<br>
+  if (cancelSendingMessageBoolean = true)<br>
+  {<br>
+    return false;<br>
+  }<br>
+ else<br>
+ {<br>
+  theFunctionIWantToDoWhileTryingToSendAMessage();<br>
+  return true;<br>
+ }<br>
+}</p>
+<p>This code does the processes I want until I toggle a boolean that 
+cancels the send process. At that point, the IridiumSBD library clears 
+the RockBlock’s EEPROM, and then the code returns to void loop().</p>
+<p>3) the RockBlock can suck a LOT of current on the 5V line of the UART
+ breakout header. If I attach a “limitless” current source to a fresh 
+RockBlock, about 500 mA will be drawn for a short time as the capacitor 
+charges. Rock7 documents this phenomenon, but my guess is that most 
+people probably don’t take to heart and just blindly hook up the 
+RockBlock’s power to their Arduino’s 5V pin. This caused lots of 
+problems for me because my Arduino is also powering a variety of 
+delicate 5V sensors. Voltage dips caused all kinds of issues. The best 
+way to fix this is to hook up your Arduino’s 5V out to the RockBlock’s 
+USB power breakout which is mercifully limited to 90 mA current draw. 
+The wiring gets a little ugly because you have serial communication 
+going to one header and power going to another, but overall the system 
+is much more stable.</p>
+<p>One problem I am STILL having that is causing most of my current 
+issues is that signal quality checks (AT+CSQ) return wildly different 
+values one minute to the next. I will send a message with while having a
+ signal quality of “5″ and then just one minute later the signal quality
+ is “0.” I cannot figure this out. Any ideas?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-169091">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Hayan<br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>hello,My name is Hayan from algeria.<br>
+i have a little bit question if you can give me response ?<br>
+is it possible to integrate RockBLOCK with opentracker v2.0 arduino based gps/glonass tracker ?<br>
+it fully open source and 100% Arduino compatible GPS/GLONASS vehicle tracker with a powerful 32-bit ARM Cortex-M3 CPU.<br>
+[...]<br>
+thank you Mikal Hart.<br>
+Hayan – Student in embedded Systems.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-169682">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>Thank you Danny.  We have a somewhat similar application where a 
+high-altitude balloon reports position, altitude, temperature, speed, 
+etc. approximately every three minutes.  This is generally pretty 
+reliable.  We sometimes get error 7, but after that things seem to 
+resume fine and we get a fairly regular 3-minute cadence of messages.  
+In the next few weeks I’ll be studying IridiumSBD with an eye on 
+improvements.</p>
+<p>There are a couple of improvements I have in mind with the ISBDCallback mechanism.</p>
+<p>I can’t imagine how you get into the state where even AT\r\n doesn’t 
+elicit any response from the modem.  I’ve never seen that (except in on 
+modem that we fried by accident–and that one never recovered).</p>
+<p>Keep in touch please.  It seems like you are doing interest stuff.  And thanks for the kind comments.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-169683">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Danny–</p>
+<p>Ah, I didn’t see your follow on until now.  But I can tell you that 
+the “wildly varying” signal quality is completely expected.  It has to 
+do with the fact that the Iridium satellites are not geostationary.  You
+ may be fully charged with a perfect view of the sky, but if an Iridium 
+satellite doesn’t happen to be overhead at the moment you check the 
+signal quality, it very well may be “0″.</p>
+<p>Thanks again…</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-169805">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>Hi Hayan–</p>
+<p>If your device is 5V TTL compatible–and I bet it is–it should be able to talk to RockBLOCK.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-170699">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Victor<br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal!</p>
+<p>First thank you for your awesome work, it’s being very helpful in a 
+project which on I’m working. But I’ve been facing an issue, and I don’t
+ know if it’s something that I did wrong: when I execute a begin() after
+ a sleep() it doesn’t awake the device (or at least it doesn’t show the 
+AT commands at the serial output) and of course doesn’t send the 
+message.</p>
+<p>Could you help me?</p>
+<p>Thanks in advance!</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-170737">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Victor,</p>
+<p>I haven’t done a lot of testing with this configuration–though I 
+expect to soon.  Is it possible that you need to wait for “up to 180 
+seconds” for the supercap to refill?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-170750">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Victor<br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal,</p>
+<p>Thanks for the quick reply. At the developers guide (<a href="https://www.rock7mobile.com/downloads/RockBLOCK-Developer-Guide.pdf" rel="nofollow">https://www.rock7mobile.com/downloads/RockBLOCK-Developer-Guide.pdf</a>) says this:</p>
+<p>“It is possible to enter a low-power ‘sleep’ mode, by switching off 
+the Iridium 9602. This is done using the sleep pin on the direct header.
+ In this mode, RockBLOCK will only require about 20uA. The internal 
+charge will be maintained, so it will be possible to transmit almost 
+immediately on wake-up”</p>
+<p>Also it explains that those 180 seconds is only at the beginning:</p>
+<p>“On initial connection to a power supply, the on-board charge store 
+must charge. At 90mA, this can take up to 180 seconds to reach full 
+charge”</p>
+<p>Anyway, I’ll try to wait that amount of time. Perhaps do I need to set the power profile to 0?</p>
+<p>Thanks again!</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-170931">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Victor<br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal,</p>
+<p>Don’t worry, I already solved it :)</p>
+<p>Best regards,</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-170953">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>What was the secret, Victor? :)</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-171045">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://www.osemoproject.com/" rel="external nofollow" class="url">Richard</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>This seems like a very simple question but I’m struggling to find
+ the answer.  The datasheets that I have found give plenty of info 
+concerning the AT commands while in command mode for the 9602.  What I’m
+ missing is how do I get the 9602 into command mode?</p>
+<p>The 9602 evidently comes default as a 9-wire interface and I would 
+like to get to the command mode so that I can change it to a 3-wire 
+interface so I can use your Arduino code.</p>
+<p>I’m using a factory 9602 and not the RockBlock.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-171108">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://www.rajvigneshtn.weebly.com/" rel="external nofollow" class="url">RAJ</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Will this library work on bare Iridium 9602 modem?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-171131">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://www.osemoproject.com/" rel="external nofollow" class="url">Richard</a><br></p>
+					
+					<p><small>2 years ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Okay, maybe that wasn’t the right question.  I see now that it 
+should automatically start off in command mode.  The question then is 
+Should the CTS, DTR, etc. have to be set a certain way in order for it 
+to start responding to “AT” commands?  It seems like RTS &amp; DTR 
+should be held low.  It also seems like if DSR is showing low that the 
+9602 is ready for commands. I’m holding RTS &amp; DTR low, and DSR is 
+showing that it is being set low by the 9602, but I’m getting no 
+response from the 9602 when it comes to “AT” commands.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-173211">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Richard–</p>
+<p>The 9602 is not like an old-fashioned modem, where you put it in command or data modes.  I <i>think</i> it’s always in command mode.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-173213">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@RAJ,</p>
+<p>We designed it to work on any 9602 device but we never tested it on anything but the Rock7 RockBLOCK.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-173216">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Richard,</p>
+<p>I’m not sure whether the RockBLOCK (are you using RockBLOCK?) pulls 
+up or down RTS, DTR, CTS, etc. (probably does), but I know that in my 
+applications I simply ignore all those signals.  I use SLEEP, TX, RX, 
+and of course the power rails.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-173288">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">okojkwu kennedy<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>i am new to this and got the Rockblock ruggedised version that 
+comes wit a USB terminal. Cutting this exposes 4 wires( 5v, +D,-D, Gnd)?
+ In this case which is tx, rx, sleep etc. Is there any other way i can 
+connect to Arduino uno.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-173489">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>Hi okojkwu… No, I’m afraid that the USB connector is entirely 
+incompatible with the signals that are provided with the header in the 
+“naked” version of the RockBlock.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-173879">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">okojkwu kennedy<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal, any other way then of connecting this rugged rockblock 
+version to be used with Arduino in tracking project? Any diagram or 
+examples?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-176175">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Luis<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal,</p>
+<p>I’ve been trying to get this code to work with an Arduino Due, which 
+I’m having issues with that stem from the fact that SoftwareSerial is 
+not supported on the Due.  This has made it rather difficult to 
+initialize an IridiumSBD object.  Since there are 4 serial ports, 
+‘Serial1′ (or 2-4) should work, however i keep getting errors like:<br>
+“In member function ‘int IridiumSBD::internalSendReceiveSBD(const char*, const uint8_t*, size_t, uint8_t*, size_t*)’:<br>
+IridiumSBD.cpp:259: error: call of overloaded ‘console(size_t&amp;)’ is ambiguous”</p>
+<p>when trying define an IridiumSBD object as: “IridiumSBD isbd(Serial1,-1);”</p>
+<p>I’ve tried other hacks to pass Serial1 through, but have hit 
+roadblocks involving trying to pass a USARTClass where the code is 
+looking for a Stream. </p>
+<p>Any help would be HIGHLY appreciated.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-176236">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>Luis/Stephen,</p>
+<p>I will fix this in the next release, but the problem causing the 
+“call of overloaded ‘console…” is the fact that on Due a size_t is 
+32-bits.  In the meantime, I think you can temporarily work around this 
+problem by changing this line</p>
+<div><div id="highlighter_558305" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">console(txDataSize);</code></div></div></td></tr></tbody></table></div></div>
+<p>to</p>
+<div><div id="highlighter_338177" class="syntaxhighlighter  cpp"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">console((uint16_t)txDataSize);</code></div></div></td></tr></tbody></table></div></div>
+<p>then restarting the Arduino IDE.  I’ll try to build a better fix.  Thanks for finding that.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-176455">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Luis<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Mikal, you are a gentleman and a scholar.  Thank you VERY much 
+for the patch advice and your appreciated work on developing this 
+library.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-179813">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Phil Smith<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>I’d like to report what looks like a bug in the internalMSSTMWorkaround() method in the Iridiumsbd.cpp code. </p>
+<p>I’ve written a simple program to talk to the Rock7 from an Arduino, 
+based on the examples in the documentation using the 
+sendReceiveSBDText() method.<br>
+This used to work (back in August), but now doesn’t. What I think is the
+ problem is that the return from the Rock7 to the -MSSTM command is the 
+time, in hexadecimal. The time (in some odd units of 90ms) now starts in
+ “a” because it is returned as a hex number. This is then checked by:<br>
+okToProceed = isdigit(msstmResponseBuf[0]);<br>
+However, the isdigit() looks for 0…9, so hex numbers starting in a…f 
+fail this test, so okToProceed gets set to false. This means that the 
+remainder of the sendReceiveSBDText() doesn’t get run, and the message 
+doesn’t get sent. [Note that this is a bit of a shorthand explanation 
+since there are both internal and external versions of most of the 
+methods in the library, but you should be able to follow the code in the
+ .cpp file if you want the details.]</p>
+<p>I’m guessing that back in August the time started in a digit in hexadecimal, and hence okToProceed gets set to true.</p>
+<p>My workaround is to use useWorkaround(false), so it doesn’t run the 
+internalMSSTMWorkaround() method. [I've actually put 
+useWorkaround(false) in the header file, line 98.]</p>
+<p>I haven’t thoroughly tested out my hypothesis since I have a later 
+version of the Rock7 firmware that doesn’t need the workaround, but this
+ might be helpful if someone else is having a similar problem.</p>
+<p>Whilst I’m sending this in, I’d also like to point out that the example in the documentation on page 4 has the line:</p>
+<p>int status = isbd.sendReceiveText(“Is anyone home?”, rxBuffer, bufferSize);</p>
+<p>but the method in the library is: sendReceiveSBDText().</p>
+<p>I hope these are both correct and helpful.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-180765">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Phil Smith,</p>
+<p>Thanks very much for both of the observations, which are entirely 
+correct.  I’ve published a fix for the error with the MSSTM parser, and 
+will fix the documentation later today.  Sorry about the hassle!</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-181200">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Phil Smith<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Something else that I came across and doesn’t seem ideal, is that
+ if you call begin() when the Rock Block is already powered up, the 
+RockBlock gets turned off, because of the line:</p>
+<p>if (ret != ISBD_SUCCESS) power(false);</p>
+<p>I changed it to:</p>
+<p>if (ret != ISBD_SUCCESS &amp;&amp; ret !=ISBD_ALREADY_AWAKE) power(false);</p>
+<p>which leaves it on if it were already on.</p>
+<p>Of course, you could check if the RockBlock was on before calling 
+begin(), but it seems a bit unnecessary that begin() would turn it off 
+if already on. There doesn’t seem to be a problem with going through 
+begin() again if already on.</p>
+<p>Apart from these few problems, the library has been extremely helpful, so thank you for sharing it.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-183134">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Phil Smith,</p>
+<p>Excellent!  Thanks very much.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-183176">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Aria<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal,</p>
+<p>I am having a problem with my RockBLOCK module.  I have it connected 
+via direct header pins to an Arduino Mega using HardwareSerial.  
+Everything works great initially, and I get a message sent over the 
+iridium network.  I put the RockBLOCK to sleep for 3 minutes, and begin 
+it again after this time.  However, it simply doesn’t turn on.  When I 
+execute a begin() after a sleep() it doesn’t awake the device (or at 
+least it doesn’t show the AT commands at the serial output) and of 
+course doesn’t send the message.  I know others have had this problem 
+but I don’t know what the solution is.  Can you shed some light on this?
+ </p>
+<p>Thanks!<br>
+Aria</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-187022">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Mj<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hey All:</p>
+<p>We currently have an arduino based program that runs with the older SBD library that communicated with our rockblock naked.</p>
+<p>Around November, we started getting the Dreaded iridium error 7. The 
+rockblock checks out as working when plugged into a computer and using 
+hyperterminal, etc.<br>
+Our programmer has gone on to other things and finding a good coder that
+ understands the library, etc. has been hard to come by. (I am an 
+engineer and our other partner is a hydrologist – so no luck with coding
+ there.) I have tried to rap my head around it, but CAD and MIG welding 
+is my wheelhouse, not c++.</p>
+<p>So I am reaching out to coders who frequent this page. We are in need
+ of assistance. We would gladly contract with someone via Elance or 
+other coder contractor site to update our code.</p>
+<p>If you are interested, or know of a coder that would be, please reach out.</p>
+<p>Thanks</p>
+<p><a href="mailto:oceanstudy1@gmail.com">oceanstudy1@gmail.com</a></p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-190720">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">PlumB<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Thanks for your work on this, it has been very helpful!</p>
+<p>I found a bug in doSBDRB() when using a hardware serial port on the 
+Mega 2560. When reading incoming data the for loop is not waiting for 
+data to arrive. I was only getting the first 1 or 2 bytes written to the
+ buffer I passed it. The rest was old data. I made the following changes
+ and it seems to be working:</p>
+<p>   for (int i=0; i= 1000UL * atTimeout)<br>
+           return ISBD_SENDRECEIVE_TIMEOUT;<br>
+     }<br>
+//      if (stream.available())<br>
+//      {<br>
+      uint8_t c = stream.read();<br>
+      if (rxBuffer &amp;&amp; prxBufferSize)<br>
+         if (*prxBufferSize &gt; 0)<br>
+         {<br>
+            *rxBuffer++ = c;<br>
+            (*prxBufferSize)–;<br>
+         }<br>
+         else<br>
+         {<br>
+            rxOverflow = true;<br>
+         }<br>
+//      }</p>
+<p>//      if (millis() – start &gt;= 1000UL * atTimeout)<br>
+//         return ISBD_SENDRECEIVE_TIMEOUT;<br>
+   }</p>
+<p>Other than that, this library has been great!</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-190735">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">PlumB<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>for (int i=0; size &gt; i; ++i)<br>
+{<br>
+   // wait for the data to come in<br>
+   while (!stream.available())<br>
+   {<br>
+      if (cancelled())<br>
+         return ISBD_CANCELLED;<br>
+      if (millis() – start &gt;= 1000UL * atTimeout)<br>
+         return ISBD_SENDRECEIVE_TIMEOUT;<br>
+   }</p>
+<p>   uint8_t c = stream.read();<br>
+   if (rxBuffer &amp;&amp; prxBufferSize)<br>
+      if (*prxBufferSize &gt; 0)<br>
+      {<br>
+         *rxBuffer++ = c;<br>
+         (*prxBufferSize)–;<br>
+      }<br>
+      else<br>
+      {<br>
+         rxOverflow = true;<br>
+      }<br>
+}</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-191669">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Mj,</p>
+<p>Did you get my email?  This is a known bug that was fixed a couple of
+ months ago.  Please download the latest library and try again.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-191694">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@PlumB, that looks correct, but why does it fix the problem you are seeing?  I can’t see how data could be lost.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-192449">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://none/" rel="external nofollow" class="url">Michael Bueno</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Mikal,</p>
+<p>I was wondering if you have had any opportunity to test your 
+IridiumSBD library using an iridium 9603 SBD modem.  (This modem is 
+smaller and lighter than the 9602 in the rockblock.)</p>
+<p>If so, did it work OK?  If not, would you have any reason to believe your library would *not* work with the 9603?</p>
+<p>I want to be like you :) and send up a high-altitude weather balloon, and am trying to decide between the 9602 and 9603 modems.</p>
+<p>Thanks!</p>
+<p>Michael</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-193528">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Mikhail<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi Mikal!<br>
+I have Arduino Mega2560 and Rock7 RockBlock<br>
+I work with hardwareserial &amp; nss = Serial1</p>
+<p>I can sennd text and binar message very well, receive them on core.rock7.com account, but…<br>
+I absolutely cannot receive message on modem… no Plain, no HEX<br>
+sending messages with core.rock7.com account!</p>
+<p>For example, default sketch SendReceive, trying to send number 25 as a
+ hex with core.rock7.com – i received on modem (with MSSTMWorkaround 
+enabled):</p>
+<p>OK<br>
+&gt;&gt; AT-MSSTM</p>
+<p>&lt;&gt; AT+SBDIX</p>
+<p>&lt;&gt; AT+SBDRB</p>
+<p>&lt;&gt; AT+CSQ</p>
+<p>&lt;&gt; AT+SBDIX</p>
+<p>&lt;&gt; AT+SBDRB</p>
+<p>&lt;&lt; AT+SBDRB<br>
+[Binary size:1][csum:9472]Inbound buffer size is 1<br>
+K(4B) Messages left: 0</p>
+<p>It looks like some thing wrong with Receive method in a library, or 
+with communicating with Rock7 Core… All received message cannot be 
+converted to 25, absolutely.<br>
+Please help, what could be wrong??</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-193530">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Mikhail<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>…addition example</p>
+<p>(with MSSTMWorkaround enabled):<br>
+&lt;&lt; AT+SBDRB<br>
+[Binary size:1][csum:9472]Inbound buffer size is 1<br>
+ћ(9E) Messages left: 0</p>
+<p>(and with MSSTMWorkaround disabled):<br>
+&lt;&lt; AT+SBDRB<br>
+[Binary size:1][csum:9472]Inbound buffer size is 1<br>
+K(4B) Messages left: 0</p>
+<p>9E and 4K is not a number 25 in any case (HEX, BIN, etc.) but why??</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-193793">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Mikhail–</p>
+<p>I’ll do some testing this month and see if I can’t replicate your 
+results.  What message are you sending to the RockBLOCK and how are you 
+sending it?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-194937">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">PlumB<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Mikal,</p>
+<p>I believe the if(stream.available()) function was being called before
+ the next byte was sent from the RockBlock. This caused it to skip the 
+code that stores the data to the buffer (because the data was not yet 
+available), and it would finish the for loop before any additional data 
+became available. I only saw this problem using hardware serial. I 
+assume software serial is slower and thus provided enough time for the 
+next byte to be sent from the RockBlock. Waiting for stream.available() 
+to return true in the for loop solved my problem.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-198755">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Sarah<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>hi, I am trying to use the rockblock with my ardunio mega for a 
+high altitude weather balloon project. When we use the code provided the
+ serial monitor only returns the word AT, we get no connection with the 
+rockblock on their mobile site. any idea whats going on?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-201854">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Sarah, have you connected TX to TX?  If so that’s <i>wrong</i>.  Connect RX to TX and TX to RX.  Make sure both are 5V.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-205292">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://none/" rel="external nofollow" class="url">Michael Bueno</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Mikal,<br>
+I am trying to use the BasicSend example from your iridium library example code.  I have determined that when I call</p>
+<p>isbd.begin();</p>
+<p>It never seems to recognize the modem.  I wait for what seems like 
+8*30 seconds (or 4 minutes), which I am guessing is a timeout. Then it 
+seems like the modem gets switched off. </p>
+<p>Any suggestions on why this would be happening, and/or an idea of what I am doing wrong?</p>
+<p>I tried your example using both softwareSerial (on a nano) and 
+hardwareSerial (on a Mega2560) for the communication to the modem.</p>
+<p>I have tried swapping the rx and tx lines in case they are labelled 
+backwards (i.e., tx-&gt;rx, rx-&gt;tx and tx-&gt;tx, rx-&gt;rx) but get 
+the same perplexing result.</p>
+<p>Thanks for any feedback you can offer.</p>
+<p>-Michael</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-205926">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://none/" rel="external nofollow" class="url">Michael Bueno</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Mikal,</p>
+<p>I found the problem specified in my previous post regarding:</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-205936">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://none/" rel="external nofollow" class="url">Michael Bueno</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Whoops! Sorry for not finishing prior message!</p>
+<p>Mikal,</p>
+<p>I have been attempting to use your arduiniana iridium library with an
+ iridium 9603 SBD (short burst data) modem, and wanted to report on my 
+progress thus far…</p>
+<p>I found the problem I specified in my previous post regarding:</p>
+<p>    “trying to use the BasicSend example”</p>
+<p>…where it seemed as if the modem was switched off.  It was silly in 
+retrospect.  I had a faulty U.FL -&gt; SMA pigtail between my modem and 
+antenna that was not allowing *any* communication to the satellite 
+network at all (as would be expected)!</p>
+<p>*** Luckily *** I followed my usual purchasing rules of procuring 
+*more than one* of any component (unless financially prohibitive).  This
+ has saved me more than once when I either received a faulty component 
+(like the aforementioned pigtail), or I fried a component while testing 
+(which, I am not embarrassed to admit, happens from time to time).</p>
+<p>My second *functional* pigtail solved this problem.</p>
+<p>To review, I am trying to use your iridium library with an iridium 
+9603 SBD modem (as opposed to the iridium 9602 modem that is housed in 
+the RockBLOCK and with which your library was originally intended to 
+function).</p>
+<p>I purchased my iridium 9603 modem from GIT Satellite Communications (<a href="http://www.gitsat.com/" rel="nofollow">http://www.gitsat.com</a>)
+ for only $175 (U.S.), which is considerably less than other SBD 
+resellers prices of over $300 U.S.  They also provide a service plan.</p>
+<p>After solving my pigtail issue, I was still having difficulty 
+communicating with the satellite array.  I regressed to attempting to 
+manually enter ‘AT’ commands to the modem while hooked up to my 
+computer.</p>
+<p>For this part of my testing, I hooked up the 9603 to TX/RX/GND to my 
+computer and ran a terminal application to talk to the modem.  The 
+(default) serial port (usb) settings for the 9603 are: </p>
+<p>19200 baud, 8 data bits, no parity, 1 stop bit, no flow control</p>
+<p>I used an FTDI adapter to physically connect the 9603 modem to my 
+computer using a USB cable.  This adapter was set to use *3.3V* (as 
+opposed to 5V) for the logic.  This is important, as a 3.3V ftdi adapter
+ does the logic level shifting required to communicate with the 9603.  
+(I suppose an in-line logic level converter could be used just the 
+same.)</p>
+<p>I was still having problems communicating with the modem.  I received
+ no responses as I tried to manually type ‘AT’ commands to the modem.</p>
+<p>I told the GITsat technical team what I was trying to do, and that I 
+was trying to use an iridium 9602-designated arduino library with the 
+9603.  I asked them about the similarity/dissimilarity between the two 
+modem models, and they told me that functionally, both modems are 
+*almost identical*.  They use the same AT commands, and GITsat has 
+reported that *at least some* of the code designed for the 9602 *has 
+worked unmodified* with the 9603.  The tech folks at GITsat have been 
+super-helpful in addressing my communications woes.</p>
+<p>Some things I learned from them include:</p>
+<p>Your Arduiniana iridium library works in what iridium calls “3-wire 
+mode”.  This is where the only communication lines that are *actively 
+used by the modem* are the RX and TX (in addition to the GND, power, 
+etc.).  Many RS-232 serial connections apparently use the CTS/RTS, 
+DTR/DSR, etc. connections (like typical modems, fax machines, etc.) In 
+“3-wire mode”, only the TX/RX/GND are used *for the communications*. </p>
+<p>Some of the other pins on the modem DO need connecting, however…</p>
+<p>The Iridium 9603 has a 20-pin interface.  This includes (two) +5V for
+ power, (two) GND, the TX and RX pins we need to connect, and the other 
+communication pins such as CTS/RTS, etc.  It is also important to 
+distinguish that the logic for the 9603 is 3.3V (not 5V).  Thus, 
+depending on what you are using to talk to it with, you may need a logic
+ level converter (i.e., if using the 9603 with a 5V arduino).  The modem
+ needs 5V to operate, however.</p>
+<p>(Not sure about the 9602 logic level voltage, but I thought I would 
+mention the the required logic level of the 9603 for those interested…)</p>
+<p>Upon beginning to test my modem, I hooked up the necessary pins and 
+attempted to use the library examples, but cannot get things to work.  I
+ am getting no communication with the satellite array or even the modem!</p>
+<p>GITsat technical support took the time to explain RS-232 protocol in 
+some detail.  They told me that for “3-wire” mode, several of the 
+*otherwise unused* communications pins on the modem *needed to be 
+grounded*.  </p>
+<p>This is how they told me to hook it up:</p>
+<p>(beginning of quotation)…</p>
+<p>To use only three wires (transmit data, receive data and ground) you 
+can ground pins 3, 4, 8, 13, 14, 15 and 18 on the 9603 connector.  Pins 
+16 and 17 can unconnected.  Pin 5 is the on/off control and should be 
+high (&gt;2.0V according to the table).   Pin 6 on the 9603 (DF_S_TX, an
+ input) should go to pin 3 on a DB9 male connector on a USB-RS232 cable.
+  Pin 7 on the 9603 (DF_S_RX, an output) should go to pin 2 on the 
+USB-RS232 cable.   Pin 5 on the DB9 (signal ground) should go to the 
+ground on the 9603.</p>
+<p>… (end of GITsat quotation)</p>
+<p>I hooked up the pins as suggested, and the modem sprung to life!  I 
+was now getting diagnostics about my signal strength and other commands 
+the library was issuing to the modem, as well as the responses from the 
+modem!  The problem I was having was due to not having grounded the 
+unused *input* communications pins.  Setting these to ground as per 
+GITsat’s recommendation made *all the difference*.</p>
+<p>I should mention also, while trying to manually enter ‘AT’ commands 
+on a serial terminal, I learned that there are two ‘AT’ commands that 
+put the 9603 modem into 3-wire mode. These are handled by your iridium 
+library, but it was helpful to know these commands while troubleshooting
+ my communications issues and attempting to enter ‘AT’ commands 
+manually. </p>
+<p>These are:</p>
+<p>AT&amp;D0</p>
+<p>AT&amp;K0</p>
+<p>To summarize, hooking up the unused *input* pins of the 9603 to 
+ground (as instructed by GITsat tech support) allowed me to use your 
+library with an iridium 9603 modem!  </p>
+<p>I am still having some issues, however.  When I try to send an SBD text string such as:</p>
+<p>AT+SBDWT=Hello, world!</p>
+<p>…, I get this error:</p>
+<p>    &lt;&lt; AT+SBDIX<br>
+    sendSBDText failed: error 3</p>
+<p>Error 3 is a "protocol error".  I am not yet certain, but I am 
+guessing this might be an issue related to parsing the strings returned 
+by the modem.  Perhaps these returned strings slightly differ between 
+the 9602/9603…</p>
+<p>In any event, I am having some tangible success using your library 
+with the 9603 and wanted to report on my progress thus far!  I am now on
+ to trying to debug the "protocol error" I am receiving when I attempt 
+to send text with the library…</p>
+<p>Incidentally, I thought I would mention that I am using an arduino 
+mega 2560 R3 for testing.  I am using two *hardware* serial ports 
+(instead of one or more softwareSerial ones).  My testing thus far has 
+included a slightly modified version of the "BasicSend" example 
+(provided with the library).  I modified it to retry the example 
+communication *inside* the loop, so it iterates and I get to monitor the
+ results of several communications attempts.</p>
+<p>For those starting out with electronics/arduino/etc. and trying to 
+integrate an iridium SBD modem into a project, I provide this warning:</p>
+<p>Don't use the arduino's 5V pin to POWER your 9603 modem.  It does not
+ supply ample current and might break your arduino (or at least not 
+allow the SBD modem and/or arduino to function correctly)!  Use a 
+separate power supply or voltage regulator that provides a clean 5V and 
+at least 500mA of current (a bit of overkill current-wise, perhaps, but 
+in this case, a bit of a buffer power-wise is reassuring)…</p>
+<p>One more thing I thought I should mention (that is fairly IMPORTANT):</p>
+<p>When using the iridium 9603 SBD modem, I tried hooking up the RX/TX 
+lines *both* ways, not sure where the TX/RX modem pins connected to the 
+arduino's TX/RX pins.  (Is that RX/TX relative to the *sender*, the 
+*receiver*, or what?)  After getting it to work, I am pleased to report 
+that the iridium 9603 TX pin should connect to an arduino's TX pin, and 
+the 9603's RX pin should go to the arduino's RX pin.  </p>
+<p>I am not sure, but *this may differ* from the iridium 9602 (and 
+RockBLOCK's) TX/RX connections as mentioned in other users' comments 
+about 9602 operation.</p>
+<p>Mikal,</p>
+<p>Thanks for the generous contribution of your library!  Without it, I 
+would be *so much further* from getting my iridium 9603 SBD modem to 
+function!  I hope to report full functionality in the near future!</p>
+<p>-Michael</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-205937">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://none/" rel="external nofollow" class="url">Michael Bueno</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>***correction from above post about iridium 9603 SBD modem follows ***</p>
+<p>The ‘AT’commands that put the iridium 9603 into 3-wire mode are:</p>
+<p>AT&amp;D(followed by the digit *zero* (with NO spaces))</p>
+<p>and</p>
+<p>AT&amp;K(followed by the digit *zero* with no spaces)</p>
+<p>Not sure why these appear (to me at least) as lowercase ‘o’ characters instead of the digit (zero)…</p>
+<p>-Michael</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-205989">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://none/" rel="external nofollow" class="url">Michael Bueno</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Ahhh…  I now realize that the zero digits look like lower case ‘o’ (oh) characters due to the font…</p>
+<p>In any event, they are both supposed to be *zero*</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-206999">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://www.univ-reims.fr/site/laboratoire-labellise/groupe-de-spectrometrie-moleculaire-et-atmospherique-umr-cnrs-7331/actualites,9553,17469.html" rel="external nofollow" class="url">Raul Gio</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hello Mikal, as part of a project with the GSMA, I’m planning on 
+using the library you created and the Iridium modem to send the readings
+ of a sensor that communicates with an Arduino DUE via the serial port. </p>
+<p>First of all, is that possible? the sensor communicates via 9600, the
+ information received is selected, cropped and sent via 19200 to the 
+Serial Monitor. This is done because only a few substrings of the 
+original string sent are necessary for the information we need.<br>
+ Could I be able to do the same using the SBDText option, or is there another way? </p>
+<p>I’m also curious to know if, the fact that I’m using Serial 
+communication before starting to use SoftwareSerial, might turn up some 
+complications since they sometimes can be used to perform the same 
+tasks.</p>
+<p>I would like to know also if there’s a timer on the library or if 
+there´s any problem if I import one from another library (SimpleTimer), 
+since we want to receive the processed readings every 30 seconds. </p>
+<p>Thank you very much for your time reading this and I hope you can help me.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-209406">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment">Jon<br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right ">
+				
+				<p>Hi there,<br>
+I am trying to use your Rockblock library in conjunction with an 
+Adafruit nRF8001 Bluetooth module. It seems when I try to activate the 
+Bluetooth module and Rockblock at the sametime, the Arduino (Mega) locks
+ up. I can run Bluetooth or the Rockblock but not both at the same time.
+ Do you have any idea how they might be competing with each other?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-209531">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Raul Gio,</p>
+<p>If you are using Due, I wouldn’t use SoftwareSerial.  Just use 2 of 
+Due’s 4 hardware serial ports.  I think this would work with Iridium, 
+though I should warn you that it is very unlikely that you will be able 
+to reliably transmit something every 30 seconds.  SBD transmissions rely
+ heavily on the luck of where the satellites are and cloud cover, etc.  
+It often takes several minutes to establish contact and transmit data.</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+        <li class="comment wrap" id="div-comment-209540">
+		
+		    <div class="meta-left">
+			
+				<div class="meta-wrap">
+					
+					<br>
+					
+					<p class="authorcomment"><a href="http://arduiniana.org/" rel="external nofollow" class="url">Mikal</a><br></p>
+					
+					<p><small>1 year ago</small></p>
+				
+				</div>
+				
+			</div>
+			    
+			<div class="text-right authcomment">
+				
+				<p>@Jon, are you using different serial ports for each?</p>
+					
+								
+			</div>
+		
+
+		<span class="comm-reply">
+		
+				
+				
+		</span>
+
+		<div class="fix"></div>
+		
+	    </li>
+ 
+
+	
+	</ol>
+	
+	<div class="navigation">
+	
+		<div class="alignleft"><a href="http://arduiniana.org/libraries/iridiumsbd/comment-page-1/#comments">« Older Comments</a></div>
+		
+		<div class="alignright"></div>
+		
+	</div>
+
+	
+	<div class="commh2">2 Trackbacks For This Post</div>
+
+	<ol class="commentlist">
+
+	
+		<li class="alt " id="comment-74957">
+
+			<cite><a href="http://arduiniana.org/2013/06/talking-to-satellites/" rel="external nofollow" class="url">Talking to Satellites!&nbsp;|&nbsp;Arduiniana</a></cite> →
+						<br>
+
+			<small class="commentmetadata"><a href="#comment-74957" title="">June 13th, 2013 → 2:19 pm</a> </small>
+
+			<p>[...] IridiumSBD [...]</p>
+
+		</li>
+
+	
+	
+		<li class=" " id="comment-77666">
+
+			<cite><a href="http://skyence.org/blog/rockblock-configuration" rel="external nofollow" class="url">RockBlock Configuration | The Official Skyence Blog</a></cite> →
+						<br>
+
+			<small class="commentmetadata"><a href="#comment-77666" title="">July 4th, 2013 → 5:51 pm</a> </small>
+
+			<p>[...] code online in a couple of weeks so stay tuned for that if 
+you’re interested. It is based off this brilliant library which has cut 
+out a lot of the hard work for [...]</p>
+
+		</li>
+
+	
+	
+	</ol>
+
+	
+ 
+
+
+<div id="respond">
+
+<div class="cancel-comment-reply">
+
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="http://arduiniana.org/libraries/iridiumsbd/#respond" style="display:none;">Click here to cancel reply.</a></small>
+	
+</div>
+
+<div class="commh2">Leave a Reply</div>
+
+
+<form action="http://arduiniana.org/wp-comments-post.php" method="post" id="commentform">
+
+
+<p class="commpadd"><input name="author" id="author" size="22" tabindex="1" type="text">
+<label for="author"><small>Name *</small></label></p>
+
+<p class="commpadd"><input name="email" id="email" size="22" tabindex="2" type="text">
+<label for="email"><small>Mail *</small></label></p>
+
+<p class="commpadd"><input name="url" id="url" size="22" tabindex="3" type="text">
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </small></p>-->
+
+<p class="commpadd"><textarea name="comment" id="comment" style="width:100%;" rows="10" tabindex="4"></textarea></p>
+
+<p style="padding:10px 0px 10px 0px;"><input name="submit" id="submit" tabindex="5" value="Add Comment" type="submit">
+<input name="comment_post_ID" value="1170" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+</p>
+<p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="7e519086ff" type="hidden"></p>
+</form>
+
+</div>
+
+</div>
+	
+	
+</div>
+
+<div class="sidebar sidebar_right">
+    
+    	<div class="widget"><h3 class="hl">Pages</h3>		<ul>
+			<li class="page_item page-item-4"><a href="http://arduiniana.org/about/">About</a></li>
+<li class="page_item page-item-235 current_page_ancestor current_page_parent"><a href="http://arduiniana.org/libraries/">Libraries</a>
+<ul class="children">
+	<li class="page_item page-item-221"><a href="http://arduiniana.org/libraries/flash/">Flash</a></li>
+	<li class="page_item page-item-1170 current_page_item"><a href="http://arduiniana.org/libraries/iridiumsbd/">IridiumSBD</a></li>
+	<li class="page_item page-item-61"><a href="http://arduiniana.org/libraries/newsoftserial/">NewSoftSerial</a></li>
+	<li class="page_item page-item-154"><a href="http://arduiniana.org/libraries/pstring/">PString</a></li>
+	<li class="page_item page-item-856"><a href="http://arduiniana.org/libraries/pwmservo/">PWMServo</a></li>
+	<li class="page_item page-item-119"><a href="http://arduiniana.org/libraries/streaming/">Streaming</a></li>
+	<li class="page_item page-item-5"><a href="http://arduiniana.org/libraries/tinygps/">TinyGPS</a></li>
+	<li class="page_item page-item-1241"><a href="http://arduiniana.org/libraries/tinygpsplus/">TinyGPS++</a></li>
+</ul>
+</li>
+<li class="page_item page-item-363"><a href="http://arduiniana.org/projects/">Projects</a>
+<ul class="children">
+	<li class="page_item page-item-365"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/">The Reverse Geocache™ Puzzle</a>
+	<ul class="children">
+		<li class="page_item page-item-865"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/building/">Building a Puzzle Box</a></li>
+		<li class="page_item page-item-1143"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/buying-a-puzzle-box/">Buying a Puzzle Box</a></li>
+		<li class="page_item page-item-766"><a href="http://arduiniana.org/projects/the-reverse-geo-cache-puzzle/more-puzzle-box-tales/">More Puzzle Box Tales</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+		</ul>
+		</div><!--/widget--><div class="widget"><h3 class="hl">Sundial.com</h3>			<div class="textwidget"><p>The evolution of the Reverse Geocache™</p>
+<p><a href="http://sundial.com/"><img class=" wp-image-1132 alignleft" title="The Sundial Group: new Reverse Geocache™ website" src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/sundial-300x159.png" alt="sundial.com" width="225" height="119"></a></p>
+</div>
+		</div><!--/widget-->		<div class="widget">		<h3 class="hl">Recent Posts</h3>		<ul>
+				<li><a href="http://arduiniana.org/2013/09/tinygps-a-new-view-of-global-positioning/" title="TinyGPS++: A New View of Global Positioning">TinyGPS++: A New View of Global Positioning</a></li>
+				<li><a href="http://arduiniana.org/2013/09/greater-accuracy-with-tinygps-13/" title="Greater Accuracy with TinyGPS 13">Greater Accuracy with TinyGPS 13</a></li>
+				<li><a href="http://arduiniana.org/2013/06/talking-to-satellites/" title="Talking to Satellites!">Talking to Satellites!</a></li>
+				<li><a href="http://arduiniana.org/2013/03/the-evolution-of-the-reverse-geocache/" title="The Evolution of the Reverse Geocache™">The Evolution of the Reverse Geocache™</a></li>
+				<li><a href="http://arduiniana.org/2012/01/puzzle-box-the-poetry-of-the-quest/" title="Puzzle Box: The Poetry of the Quest">Puzzle Box: The Poetry of the Quest</a></li>
+				</ul>
+		</div><!--/widget--><div class="widget"><h3 class="hl">Archives</h3>		<ul>
+			<li><a href="http://arduiniana.org/2013/09/" title="September 2013">September 2013</a></li>
+	<li><a href="http://arduiniana.org/2013/06/" title="June 2013">June 2013</a></li>
+	<li><a href="http://arduiniana.org/2013/03/" title="March 2013">March 2013</a></li>
+	<li><a href="http://arduiniana.org/2012/01/" title="January 2012">January 2012</a></li>
+	<li><a href="http://arduiniana.org/2011/01/" title="January 2011">January 2011</a></li>
+	<li><a href="http://arduiniana.org/2010/10/" title="October 2010">October 2010</a></li>
+	<li><a href="http://arduiniana.org/2010/08/" title="August 2010">August 2010</a></li>
+	<li><a href="http://arduiniana.org/2010/07/" title="July 2010">July 2010</a></li>
+	<li><a href="http://arduiniana.org/2010/02/" title="February 2010">February 2010</a></li>
+	<li><a href="http://arduiniana.org/2010/01/" title="January 2010">January 2010</a></li>
+	<li><a href="http://arduiniana.org/2009/11/" title="November 2009">November 2009</a></li>
+	<li><a href="http://arduiniana.org/2009/10/" title="October 2009">October 2009</a></li>
+	<li><a href="http://arduiniana.org/2009/05/" title="May 2009">May 2009</a></li>
+	<li><a href="http://arduiniana.org/2009/04/" title="April 2009">April 2009</a></li>
+	<li><a href="http://arduiniana.org/2009/03/" title="March 2009">March 2009</a></li>
+	<li><a href="http://arduiniana.org/2009/02/" title="February 2009">February 2009</a></li>
+	<li><a href="http://arduiniana.org/2009/01/" title="January 2009">January 2009</a></li>
+		</ul>
+</div><!--/widget--><script type="text/javascript"><!--
+google_ad_client = "pub-7419063236844482";
+/* 200x90, created 10/22/09 */
+google_ad_slot = "2007274074";
+google_ad_width = 200;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/show_ads.js">
+</script><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:200px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" width="200" height="90" frameborder="0"></iframe></ins></ins>    
+</div>    	    
+            
+			<div class="footer footer_left">
+            
+<!-- Code modified by Mikal Hart   <div class="fl">&copy; 2016 Arduiniana.</div> -->
+                <div class="fl">© 2016 Mikal Hart.</div>
+				
+<!-- Inuittypes link removed by Mikal Hart <div class="fr"><a href="http://bizzartic.com/bizzthemes/inuitypes/"><em>Inuitypes</em></a> by <a href="http://bizzartic.com"><em>B<span><b>i</b></span>zzArtic</em></a></div> -->
+				
+                <div class="fix"><!----></div>
+			
+            </div>
+
+        </div>
+
+    </div>
+
+<script type="text/javascript" src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/shCore.js"></script>
+<script type="text/javascript" src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/shBrushCpp.js"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://arduiniana.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83c";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://arduiniana.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.83c";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+<!-- removed by Mikal Hart    <script type="text/javascript" src="http://arduiniana.org/wp-content/themes/inuitypes/library/js/suckerfish.js"></script> -->
+
+	<!--[if lt IE 7]>
+           <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+           <![endif]-->
+
+    
+<!-- Code below added by Mikal Hart for Google analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="IridiumSBD%C2%A0%7C%C2%A0Arduiniana_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11204229-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- **** end Mikal Hart addition **** -->
+
+</body></html>
