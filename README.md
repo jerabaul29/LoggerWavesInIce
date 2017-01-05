@@ -70,7 +70,7 @@ Steps:
 
 - Small electonics and materials for building the soldered board: 25$
 
-- LiFe prismatic battery (2*3.2V, 40Ah) and PCM: 135$
+- LiFe prismatic battery (2*3.2V, 40Ah) and PCM: 135$ (note that if you want to perform logging with an instrument you will not recover in milder environment, you will get much better one shot autonomy and price tag just assembling a battery pack from Alkaline batteries).
 
 - Pelican case: 80$
 
