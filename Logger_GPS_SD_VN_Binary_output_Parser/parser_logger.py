@@ -133,7 +133,13 @@ def load_until_end_line(data, start_index):
     hit_end_of_line = False
 
     while not hit_end_of_line:
-        current_char = data[current_index]
+        try:
+            current_char = data[current_index]
+        except IndexError:
+            print "bad end of line at the end of the file; probably due to power disconnect"
+            return (accumulator, current_index - 1)
+            break
+
         current_index += 1
 
         if current_char == '\n':
