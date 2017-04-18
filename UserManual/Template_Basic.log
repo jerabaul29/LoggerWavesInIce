@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.5)  18 APR 2017 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.5)  18 APR 2017 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1358,10 +1358,10 @@ Package pdftex.def Info: Figures/IMG_20170418_134237.jpg used on input line 123
 File: Figures/IMG_20170418_135351.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_135351.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_135351.jpg used on input line 152
+Package pdftex.def Info: Figures/IMG_20170418_135351.jpg used on input line 154
 .
 (pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 167.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 169.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1377,20 +1377,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.169 \end{verbatim}
+l.171 \end{verbatim}
                     
 ? 
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.169 \end{verbatim}
+l.171 \end{verbatim}
                     
 ? 
 [6] <Figures/IMG_20170418_100240.jpg, id=35, 3035.34pt x 4047.12pt>
 File: Figures/IMG_20170418_100240.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_100240.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_100240.jpg used on input line 194
+Package pdftex.def Info: Figures/IMG_20170418_100240.jpg used on input line 196
 .
 (pdftex.def)             Requested size: 214.87708pt x 286.4768pt.
 
@@ -1398,7 +1398,7 @@ Package pdftex.def Info: Figures/IMG_20170418_100240.jpg used on input line 194
 File: Figures/IMG_20170418_100245.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_100245.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_100245.jpg used on input line 195
+Package pdftex.def Info: Figures/IMG_20170418_100245.jpg used on input line 197
 .
 (pdftex.def)             Requested size: 214.87708pt x 286.4768pt.
 
@@ -1406,7 +1406,7 @@ Package pdftex.def Info: Figures/IMG_20170418_100245.jpg used on input line 195
 File: Figures/IMG_20170418_100305.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_100305.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_100305.jpg used on input line 204
+Package pdftex.def Info: Figures/IMG_20170418_100305.jpg used on input line 206
 .
 (pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
 
@@ -1414,56 +1414,53 @@ Package pdftex.def Info: Figures/IMG_20170418_100305.jpg used on input line 204
 File: Figures/IMG_20170418_100414.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_100414.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_100414.jpg used on input line 213
+Package pdftex.def Info: Figures/IMG_20170418_100414.jpg used on input line 215
 .
 (pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
-
-<Figures/IMG_20170418_100127.jpg, id=39, 3035.34pt x 4047.12pt>
+ [7 <./Figures/IMG_20170418_135351.jpg>]
+[8 <./Figures/IMG_20170418_100240.jpg> <./Figures/IMG_20170418_100245.jpg> <./F
+igures/IMG_20170418_100305.jpg>]
+<Figures/IMG_20170418_100127.jpg, id=46, 3035.34pt x 4047.12pt>
 File: Figures/IMG_20170418_100127.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_100127.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_100127.jpg used on input line 222
+Package pdftex.def Info: Figures/IMG_20170418_100127.jpg used on input line 224
 .
 (pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
 
-<Figures/IMG_20170418_102323.jpg, id=40, 3035.34pt x 4047.12pt>
+<Figures/IMG_20170418_102323.jpg, id=47, 3035.34pt x 4047.12pt>
 File: Figures/IMG_20170418_102323.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_102323.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_102323.jpg used on input line 231
+Package pdftex.def Info: Figures/IMG_20170418_102323.jpg used on input line 233
 .
 (pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
- [7 <./Figures/IMG_20170418_135351.jpg>]
-[8 <./Figures/IMG_20170418_100240.jpg> <./Figures/IMG_20170418_100245.jpg> <./F
-igures/IMG_20170418_100305.jpg>] [9 <./Figures/IMG_20170418_100414.jpg> <./Figu
-res/IMG_20170418_100127.jpg>]
-<Figures/IMG_20170418_140411.jpg, id=51, 3035.34pt x 4047.12pt>
+
+<Figures/IMG_20170418_140411.jpg, id=48, 3035.34pt x 4047.12pt>
 File: Figures/IMG_20170418_140411.jpg Graphic file (type jpg)
 
 <use Figures/IMG_20170418_140411.jpg>
-Package pdftex.def Info: Figures/IMG_20170418_140411.jpg used on input line 249
+Package pdftex.def Info: Figures/IMG_20170418_140411.jpg used on input line 251
 .
 (pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
- [10 <./Figures/IMG_20170418_102323.jpg>]
-[11 <./Figures/IMG_20170418_140411.jpg>] (./Template_Basic.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [9 <./Figures/IMG_20170418_100414.jpg>]
+[10 <./Figures/IMG_20170418_100127.jpg> <./Figures/IMG_20170418_102323.jpg>]
+[11 <./Figures/IMG_20170418_140411.jpg>] (./Template_Basic.aux) ) 
 Here is how much of TeX's memory you used:
- 18503 strings out of 493029
- 324904 string characters out of 6136235
- 450381 words of memory out of 5000000
+ 18505 strings out of 493029
+ 324924 string characters out of 6136235
+ 450380 words of memory out of 5000000
  21688 multiletter control sequences out of 15000+600000
- 47739 words of font info for 85 fonts, out of 8000000 for 9000
+ 47822 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,10n,56p,10389b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Template_Basic.pdf (11 pages, 50469510 bytes).
+{/usr/share/te
+xmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.en
+c}</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmtt12.pfb>
+Output written on Template_Basic.pdf (11 pages, 50470533 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

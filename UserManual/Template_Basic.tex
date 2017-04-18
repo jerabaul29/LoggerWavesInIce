@@ -121,7 +121,7 @@ The are 3 yellow sensors, and 7 orange sensors. The yellow sensors only have an 
   \begin{figure}
   \begin{center}
   \includegraphics[width=.8\textwidth]{Figures/IMG_20170418_134237}
-  \caption{\label{docEx3Sensors} Example of sensors deployment in an array of 3 format.}
+  \caption{\label{docEx3Sensors} Example of sensors deployment in an array of 3 format. In a real world situation, indicate the reference of each IMU sensor (the number, together with the letter in the case of the yellow sensor, on top of the pelicase).}
   \end{center}
   \end{figure}
 
@@ -130,6 +130,8 @@ The are 3 yellow sensors, and 7 orange sensors. The yellow sensors only have an 
   \item If the boat stays close the the IMUs, no more precautions are needed. If the boat is to steam away from the sensors, attach one Iridium tracker to each individual or group of 3 sensors using a rope.
 
   \item The sensors float without the addition of any buoy, so using a buoy is not strictly needed. However, if you want to measure wave spectrum in the open water, use preferably the lighter yellow sensors (FX), together with a corresponding buoy. You can use the flags to make detection during recovery easier. A couple of heavier orange sensors can also be equipped with a buoy. You should use straps to fix the IMUs on the floats.
+
+  \item GPS works best with a signal to the opened sky, try to avoid putting the loggers in an ice cavity or to bury them under more than a thin layer of snow.
 
   \item We are interested in several wave properties, in particular: wave spectrum, wave directional spectrum, and wave damping / wave spectrum evolution. Wave spectrum can be computed from one single sensor. Wave directional spectrum can be computed from either one single sensor or, better, from an array of 3 sensors in a triangle configuration. Wave damping / wave spectrum evolution can be computed by comparing the spectra and / or directional spectra obtained from distant sensors. Therefore, it is best to deploy groups of sensors (either 3 in a triangle configuration, or 1 on its own) as far away from each other, so that the clearest damping possible is visible. Several kilometers, if possible more, would be best.
 \end{itemize}
@@ -250,6 +252,8 @@ The loggers have been used in  3 measurements campaigns and always worked flawle
   \caption{\label{smallBoard} The small connection board can get disconnected under heavy sustained vibrations.}
   \end{center}
   \end{figure}
+
+  \item The connectors to the GPS antenna (small gloden connector on the GPS board) easily get popped out or broken, be careful when handling the electronics. This may not be easily visible, but will degrade GPS signal quality.
 
 \end{itemize}
 
