@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.5)  18 APR 2017 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.5)  18 APR 2017 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1290,38 +1290,183 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 66.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+)
+<Figures/IMG_20170418_134552.jpg, id=1, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_134552.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_134552.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_134552.jpg used on input line 70.
+
+(pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
+
+<Figures/IMG_20170418_102010.jpg, id=2, 4047.12pt x 3035.34pt>
+File: Figures/IMG_20170418_102010.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_102010.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_102010.jpg used on input line 79.
+
+(pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
+
+<Figures/IMG_20170418_102359.jpg, id=3, 4047.12pt x 3035.34pt>
+File: Figures/IMG_20170418_102359.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_102359.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_102359.jpg used on input line 86.
+
+(pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
+
+<Figures/IMG_20170418_134534.jpg, id=4, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_134534.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_134534.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_134534.jpg used on input line 95.
+
+(pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
+ [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Figures/IMG_20170418
+_134552.jpg> <./Figures/IMG_20170418_102010.jpg>] <Figures/IMG_20170418_134656.
+jpg, id=18, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_134656.jpg Graphic file (type jpg)
 
-! LaTeX Error: File `Figures/Enteringaliases' not found.
+<use Figures/IMG_20170418_134656.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_134656.jpg used on input line 104
+.
+(pdftex.def)             Requested size: 214.87708pt x 286.4768pt.
+
+<Figures/IMG_20170418_134711.jpg, id=19, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_134711.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_134711.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_134711.jpg used on input line 105
+.
+(pdftex.def)             Requested size: 214.87708pt x 286.4768pt.
+ [3 <./Figures/IMG_20170418_102359.jpg>]
+[4 <./Figures/IMG_20170418_134534.jpg> <./Figures/IMG_20170418_134656.jpg> <./F
+igures/IMG_20170418_134711.jpg>]
+<Figures/IMG_20170418_134237.jpg, id=26, 4047.12pt x 3035.34pt>
+File: Figures/IMG_20170418_134237.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_134237.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_134237.jpg used on input line 123
+.
+(pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
+ [5 <./Figures/IMG_20170418_134237.jpg>]
+<Figures/IMG_20170418_135351.jpg, id=30, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_135351.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_135351.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_135351.jpg used on input line 152
+.
+(pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 167.
+
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+! LaTeX Error: \begin{document} ended by \end{verbatim}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 ...th=.8\textwidth]{Figures/Enteringaliases}
-                                                  
+l.169 \end{verbatim}
+                    
 ? 
-[4] (./Template_Basic.aux) ) 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.169 \end{verbatim}
+                    
+? 
+[6] <Figures/IMG_20170418_100240.jpg, id=35, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_100240.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_100240.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_100240.jpg used on input line 194
+.
+(pdftex.def)             Requested size: 214.87708pt x 286.4768pt.
+
+<Figures/IMG_20170418_100245.jpg, id=36, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_100245.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_100245.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_100245.jpg used on input line 195
+.
+(pdftex.def)             Requested size: 214.87708pt x 286.4768pt.
+
+<Figures/IMG_20170418_100305.jpg, id=37, 4047.12pt x 3035.34pt>
+File: Figures/IMG_20170418_100305.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_100305.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_100305.jpg used on input line 204
+.
+(pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
+
+<Figures/IMG_20170418_100414.jpg, id=38, 4047.12pt x 3035.34pt>
+File: Figures/IMG_20170418_100414.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_100414.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_100414.jpg used on input line 213
+.
+(pdftex.def)             Requested size: 382.00775pt x 286.46136pt.
+
+<Figures/IMG_20170418_100127.jpg, id=39, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_100127.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_100127.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_100127.jpg used on input line 222
+.
+(pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
+
+<Figures/IMG_20170418_102323.jpg, id=40, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_102323.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_102323.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_102323.jpg used on input line 231
+.
+(pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
+ [7 <./Figures/IMG_20170418_135351.jpg>]
+[8 <./Figures/IMG_20170418_100240.jpg> <./Figures/IMG_20170418_100245.jpg> <./F
+igures/IMG_20170418_100305.jpg>] [9 <./Figures/IMG_20170418_100414.jpg> <./Figu
+res/IMG_20170418_100127.jpg>]
+<Figures/IMG_20170418_140411.jpg, id=51, 3035.34pt x 4047.12pt>
+File: Figures/IMG_20170418_140411.jpg Graphic file (type jpg)
+
+<use Figures/IMG_20170418_140411.jpg>
+Package pdftex.def Info: Figures/IMG_20170418_140411.jpg used on input line 249
+.
+(pdftex.def)             Requested size: 191.00023pt x 254.61174pt.
+ [10 <./Figures/IMG_20170418_102323.jpg>]
+[11 <./Figures/IMG_20170418_140411.jpg>] (./Template_Basic.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18381 strings out of 493029
- 321583 string characters out of 6136235
- 451275 words of memory out of 5000000
- 21574 multiletter control sequences out of 15000+600000
- 47421 words of font info for 84 fonts, out of 8000000 for 9000
+ 18503 strings out of 493029
+ 324904 string characters out of 6136235
+ 450381 words of memory out of 5000000
+ 21688 multiletter control sequences out of 15000+600000
+ 47739 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,10n,56p,10389b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/u
-sr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/publi
-c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Template_Basic.pdf (4 pages, 93100 bytes).
+ 54i,10n,56p,10389b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Template_Basic.pdf (11 pages, 50469510 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 15873 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 16460 words of extra memory for PDF output out of 17280 (max. 10000000)
 
