@@ -1,0 +1,165 @@
+\documentclass[pdftex,a4paper,12pt,twocolumn,fleqn,captions=tableheading]{scrartcl}
+
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{capt-of}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{xfrac}
+\usepackage{dblfloatfix}
+\usepackage{url}
+\usepackage[squaren,Gray]{SIunits}
+\usepackage{commath}
+\usepackage{listings}
+% \usepackage{siunitx}
+
+\addtokomafont{caption}{\small}
+\setkomafont{captionlabel}{\sffamily\bfseries}
+
+\usepackage[nottoc]{tocbibind}
+
+% page layout
+\usepackage[a4paper,onecolumn]{geometry}
+\geometry{hmargin=60pt,top=60pt,bottom=80pt}
+% \geometry{onecolumn,columnsep=20pt}
+\geometry{head=10pt,headsep=20pt,foot=35pt}
+
+% header and footer
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+%\fancyheadoffset{9pt}
+%\fancyfootoffset{9pt}
+\lhead{}	\chead{Usermanual IMU loggers}	\rhead{}
+\lfoot{}	\cfoot{J. Rabault \\ \thepage}	\rfoot{}
+%\renewcommand{\headrulewidth}{0,1 mm}
+\renewcommand{\footrulewidth}{\headrulewidth}
+
+\begin{document}
+% top matter
+\title{Using the waves in ice IMU loggers}
+\author{J. Rabault
+  }
+\date{\today}
+
+\maketitle
+
+\section{Introduction}
+
+This document gives some details about how to use the IMU loggers. Each logger is equipped with an IMU, a GPS chip and antenna, a SD card and a microncontroller. There are two logger models: the yellow ones and the orange ones. The only difference is in the battery model and size and weigth of the loggers, the underlying electronics are the same. The orange loggers are larger, heavier and have better battery capacity.
+
+\section{Use}
+
+It is best to put the loggers on and off in the boat if possible, and to avoid opening the loggers when outside in order to limit the amount of water, snow and humidity in the loggers. If you recover the loggers and they are wet, first dry them before opening. The procedure for using the loggers is the following:
+
+\begin{itemize}
+  \item Make sure that the SD card is present in the SD card reader (see Fig. XX).
+
+  \item Put the loggers on. For the yellow loggers, this means plugging the USB cable into the power bank (in one of the outputs, just avoid the 0.5A one that may be too weak), and pressing the button under the charge indication LEDs, see Fig. XX. Once you press the button of the powerbank, power will be delivered to the logger. You can see the batter level by looking at the powerbank LEDs (1: 0 to 25 \%, 2: 25 to 50, 3: 50 to 75, 4: 75 to 100). For the orange loggers, simply connect the round connector of the battery to the round connector of the electronics, see Fig. XX.
+
+  \item Check that the logging is performed nominally. For this, you should look at the LEDs of the electronics board. There are three LEDs you could / should look at for ensuring that logging is performed properly. When first giving power to the logger, the ON LED of the arduino board should get green and stay on. This LED can be a bit difficult to see as it is under the hand-made board. This LED indicates that power is available for the logger. The, the ACT and FIX LEDs, of the SD card board and the GPS card board respectively, should blink shortly. This indicates that the microncontroller is able to give current and talk to those boards. Finally, the GPS FIX LED should blink regularly with a period of about 1 second, while the SD card ACT LED should blink quickly, in an erratic manner. The frequency of the ACT LED should be several times per second, if it is slowly blinking or not blinking at all, see the troubleshooting section.
+
+  \item One you are sure that logging is performed nominally, make sure that all elements are securely disposed in the loggers (yellow loggers: electronics boards stable on the 3 pins, and powerbank stable in the foam with most cables stabilized under the powerbank; orange loggers: electronics board in the from slot, and stable foam; see Fig. XX). Then, close the pelicases. Be careful not to clamp cables when closing the pelicases. This can happen in particular with the cable to the GPS antenna. Clamping the cables can result in both cable damage and water infiltration.
+
+  \item To power off the loggers, simply cut the current supply. For the yellow loggers, press the power bank button and disconnect the USB on the power bank side. For the orange loggers, disconnect the cylindrical power connector. Note that data is written to a new file on the SD card every 15 minutes, and that the last file will be damaged during power shutoff. As a consequence, you should wait at least 15 minutes since the end of the interesting data being measured to power off the loggers, and if you perform a functionnality test less than 15 minutes long, you should not expect to have any data on the SD card.
+
+\end{itemize}
+
+\section{Data retrieval and parsing}
+
+All data is logged on the mini SD card of each logger. As each logger keeps track of the last index used in the filemane for the data stored on its own SD card, it is important to always use the same SD card for the same logger. The procedure for retrieving the data is the following:
+
+\begin{itemize}
+  \item Power off
+
+  \item take out SD card.
+
+  \item Use SD card adapter to connect to a PC
+
+  \item copy all files, one SD card content per folder
+
+  \item when you are sure that data copied, make a copy
+
+  \item erase the SD card
+
+  \item Instert back the SD card, in the same logger as before.
+\end{itemize}
+
+\section{Charge}
+
+All the battery cells use Lithium based battery. Be very careful when charing, bad charging could result in fire / explosion. Do not let the batteries unattended for long periods of time when charging.
+
+The yellow loggers are equipped with one single power bank LiIon battery pack. The charging instructions for the yellow sensors are the following:
+
+\begin{itemize}
+  \item Turn off the power bank by pressing its side button.
+
+  \item Disconnect the USB cable going into the power bank.
+
+  \item Charge the power bank from either the USB port of a computer, or any USB charger (such as smartphone charger etc.). The port to use for charging is the 'input' mini USB.
+\end{itemize}
+
+the orange loggers are equipped with 2 LiFe cells, each giving around 3.2V at full charge and of capacity 40 Ah, assembled in series (2S). The special LiFe charger, with cells balancing, should be used. The charging instructions for the orange sensors are the following:
+
+\begin{itemize}
+  \item Disconnect the power connector of the logger.
+
+  \item Assemble the charger, as shown in Fig. XX. Be very careful to make sure that you use the right polarity.
+
+  \item Make sure that the charger parameters are the correct ones: LiFe battery, and 3A charge. See Fig. XX.
+
+  \item Plug both the cylindrical connector and the single wire into the battery pack. See Fig. XX
+
+  \item Give AC 220V power to the chager. After a few seconds, the Charge status LED, and the 1S and 2S LEDs should turn red, see Fig XX. If the battery cells are being balanced by the charger, it is possible that after some times just the 1S LED stays red while the 2S LED gets off.
+
+  \item When the Charge status LED turns green, the two cells are fully charged, see Fig XX.
+\end{itemize}
+
+ADD FIGS CHARGIN LIFE
+
+\section{Deployment}
+
+The are 3 yellow sensors, and 7 orange sensors. The yellow sensors only have an autonomy of about 24 hours when fully charged. The orange sensors have an autonomy of 8+ days when fully charged. The deployment guidelines for obtaining best data are the following:
+
+\begin{itemize}
+  \item If the floes are large enough, deploy the sensors by groups of 3, in a triangle configuration, each group of 3 sensors on the same floe. The sensors should be deployed at the angles of the triangle, and the distance between two sensors should be about 15 to 20 meters. Tie the three sensors together with a rope, to make recovery easier and keep the sensors grouped in case of floe dislocation. Make sure to measure accurately the distance between each pair of sensors, as the GPS accuracy is only typically a couple of meters but we need to rely on the distance between the sensors during processing. Also take note of the array orientation. See Fig. XX for an example of technical documentation of an array deployment.
+
+  \item If the floes are too small for the triangle configuration, deploy the sensors individually, i.e. only one per small floe. See Fig. XX.
+
+  \item If the boat stays close the the IMUs, no more precautions are needed. If the boat is to steam away from the sensors, attach one Iridium tracker to each individual or group of 3 sensors using a rope.
+
+  \item The sensors float without the addition of any buoy, so using a buoy is not strictly needed. However, if you want to measure wave spectrum in the open water, use preferably the lighter yellow sensors (FX), together with a corresponding buoy. You can use the flags to make detection during recovery easier. A couple of heavier orange sensors can also be equipped with a buoy.
+
+  \item We are interested in several wave properties, in particular: wave spectrum, wave directional spectrum, and wave damping / wave spectrum evolution. Wave spectrum can be computed from one single sensor. Wave directional spectrum can be computed from either one single sensor or, better, from an array of 3 sensors in a triangle configuration. Wave damping / wave spectrum evolution can be computed by comparing the spectra and / or directional spectra obtained from distant sensors. Therefore, it is best to deploy groups of sensors (either 3 in a triangle configuration, or 1 on its own) as far away from each other, so that the clearest damping possible is visible. Several kilometers, if possible more, would be best.
+\end{itemize}
+
+ADD FIG TECHNICAL DOCUMENTATION HOW TO DEPLOY
+
+\section{Troubleshooting}
+
+\begin{itemize}
+  \item No blinking of the Arduino green LED:
+
+  \item No fast blinking of the SD card LED: make sure SD card correctly inserted, check all electronics correctly inserted in each other.
+
+  \item Other: take contact with Jean Rabault: jean.rblt@gmail.com or jeanra@math.uio.no .
+\end{itemize}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.8\textwidth]{Figures/Enteringaliases}
+\caption{\label{Spreadsheet}}
+\end{center}
+\end{figure}
+
+\end{document}
