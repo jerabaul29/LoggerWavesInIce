@@ -1,14 +1,17 @@
 # Logger waves in ice
 
-This repository contains code, hardware details and explanations about the micro controller based loggers built and used by the UiO mechanics group for measuring waves in ice. All the material is released under the MIT license (see License.txt for more details). This license lets you do anything you want with the content of this repository, as long as you accept that it comes with no warranty. Most of the content of this repository was developped during the PhD of Jean Rabault, with substancial help from laboratory engineer Olav Gundersen and help from PostDoc Graig Sutherland.
+This repository contains code, hardware details and explanations about the micro controller based loggers built and used by the UiO mechanics group for measuring waves in ice. All the material is released under the MIT license (see License.txt for more details), but please cite our Journal of Glaciology article (see text under) if you find our material useful and use if for your research. This license lets you do anything you want with the content of this repository, as long as you accept that it comes with no warranty. Most of the content of this repository was developped during the PhD of Jean Rabault, with substancial help from laboratory engineer Olav Gundersen and help from PostDoc Graig Sutherland.
 
 I also wrote a blog post discussing this material that you may find useful: http://folk.uio.no/jeanra/Microelectronics/MicrocontrollerBasedLoggers.html
+
+Our Journal of Glaciology article has now been accepted for publication (preprint available here: https://folk.uio.no/jeanra/Articles/GreaseIceSvalbard_JoG.pdf )
 
 If you find the content of this repository helpful, please consider:
 
 - Contributing to the development of an Open Source community around scientific instrumentation by sharing your own designs, and / or further development effort you would put in this code.
 
-- Refering to our publications related to the development of those instruments.
+- Refering to our publication related to the development of those instruments: ''Measurements of wave damping by a grease ice slick in
+Svalbard using of-the-shelf sensors and open source electronics'', J. Rabault et. al., accepted for publication in Journal of Glaciology (2017).
 
 The loggers we used are based on Arduino Mega boards. They would more generally be compatible after adaptation with most of the Arduino compatible micro controller boards. We chose the Arduino Mega as it features 4 physical serial ports, which was convenient for integrating our sensors.
 
@@ -70,7 +73,7 @@ Steps:
 
 - Small electonics and materials for building the soldered board: 25$
 
-- LiFe prismatic battery (2*3.2V, 40Ah) and PCM: 135$
+- LiFe prismatic battery (2*3.2V, 40Ah) and PCM: 135$ (note that if you want to perform logging with an instrument you will not recover in milder environment, you will get much better one shot autonomy and price tag just assembling a battery pack from Alkaline batteries).
 
 - Pelican case: 80$
 
