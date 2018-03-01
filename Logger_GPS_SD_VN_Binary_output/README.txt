@@ -42,3 +42,10 @@ Binary output 1:
  
  tail -x FileName | head -y | xxd
  ---------------------------------------------------------------
+ 
+ ---------------------------------------------------------------
+ CAUTION: when using VectorNav software, do not forget to:
+ - connect to the sensor
+ - write to non volatile memory (right click on the sensor in the tree view)
+ - disconnect from the sensor
+ ---------------------------------------------------------------
