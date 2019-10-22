@@ -4,3 +4,7 @@ This is the parser for converting the binary data logged from the VN100 (using t
 - Files with naming in the style *F00379_Bt* contain the Arduino timestamps (from the millis() function).
 
 For interpretation of the letter indicating data type, see the header of **/Logger_GPS_SD_VN_Binary_output_Parser**.
+
+It seems that this code has problems with windows. Use either plain Linux (Ubuntu works fine), or Linux subsystem on Windows. The code is Python 2.7. If you have some issues, see through the issue for help:
+
+https://github.com/jerabaul29/LoggerWavesInIce/issues/2
