@@ -49,3 +49,5 @@ Binary output 1:
  - write to non volatile memory (right click on the sensor in the tree view)
  - disconnect from the sensor
  ---------------------------------------------------------------
+ 
+ If you use a PCB from a waves in ice instrument, make sure to use the right port for the IMU (need Serial3), make sure to use a core with extended buffers (better to use RX as 512 bytes), and make sure that production loggers have the serial debug disabled.
