@@ -2,9 +2,13 @@
 
 This repository contains code, hardware details and explanations about the micro controller based loggers built and used by the UiO mechanics group for measuring waves in ice. All the material is released under the MIT license (see License.txt for more details), but please cite our Journal of Glaciology article (see text under) if you find our material useful and use if for your research. This license lets you do anything you want with the content of this repository, as long as you accept that it comes with no warranty. Most of the content of this repository was developped during the PhD of Jean Rabault, with substancial help from laboratory engineer Olav Gundersen and help from PostDoc Graig Sutherland.
 
-I also wrote a blog post discussing this material that you may find useful: http://folk.uio.no/jeanra/Microelectronics/MicrocontrollerBasedLoggers.html
+Our Journal of Glaciology article that describes this instrument as part of its methodology has now been accepted for publication: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/379C4B7F67CC03283E2AE0D7FAF68F34/S0022143017000016a.pdf/measurements_of_wave_damping_by_a_grease_ice_slick_in_svalbard_using_offtheshelf_sensors_and_opensource_electronics.pdf .
 
-Our Journal of Glaciology article has now been accepted for publication (preprint available here: https://folk.uio.no/jeanra/Articles/GreaseIceSvalbard_JoG.pdf )
+```
+Rabault, J., Sutherland, G., Gundersen, O., & Jensen, A. (2017).
+Measurements of wave damping by a grease ice slick in Svalbard using off-the-shelf sensors and open-source electronics.
+Journal of Glaciology, 63(238), 372-381.
+```
 
 If you find the content of this repository helpful, please consider:
 
