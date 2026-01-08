@@ -11,6 +11,15 @@ https://github.com/jerabaul29/LoggerWavesInIce/issues/2
 
 # Note about Python2
 
+A more recent way to get this to work is to use conda:
+
+```
+conda create -n py27 python=2.7
+conda activate py27
+```
+
+and then use the instructions below.
+
 This code is Python2 as it is quite old, but Python2 has been depreciated in Ubuntu 20.04. To use, use a virtual environment. For example on my machine running Ubuntu 20.04 (you will need to update paths for them to work on your own machine):
 
 ```
